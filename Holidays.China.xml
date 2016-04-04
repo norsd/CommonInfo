@@ -363,7 +363,7 @@
     <date name="元旦">01/01/2016</date>
     <date name="元旦">01/02/2016</date>
     <date name="元旦">01/03/2016</date>
-    <date name="春节前最后一个工作日,周六" WorkDay="True">02/07/2016</date>
+    <date name="春节前最后一个工作日,周六" WorkDay="True">02/06/2016</date>
     <date name="春节">02/07/2016</date>
     <date name="春节">02/08/2016</date>
     <date name="春节">02/09/2016</date>
