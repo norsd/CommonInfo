@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Root Version="20160404" Name="China">
+<Root Version="20160405.21" Name="China">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/Holidays.China.xml" UpdateIntervalMS = "600000" WebTimeOutMS ="10000"/>
   <Holidays>
     <year id="2003">
@@ -189,177 +189,231 @@
       <date>10/08/2009</date>
     </year>
     <year id="2010">
-      <date>01/01/2010</date>
-      <date>01/02/2010</date>
-      <date>01/03/2010</date>
-      <date>02/13/2010</date>
-      <date>02/14/2010</date>
-      <date>02/15/2010</date>
-      <date>02/16/2010</date>
-      <date>02/17/2010</date>
-      <date>02/18/2010</date>
-      <date>02/19/2010</date>
-      <date>04/03/2010</date>
-      <date>04/04/2010</date>
-      <date>04/05/2010</date>
-      <date>05/01/2010</date>
-      <date>05/02/2010</date>
-      <date>05/03/2010</date>
-      <date>06/14/2010</date>
-      <date>06/15/2010</date>
-      <date>06/16/2010</date>
-      <date>09/22/2010</date>
-      <date>09/23/2010</date>
-      <date>09/24/2010</date>
-      <date>10/01/2010</date>
-      <date>10/02/2010</date>
-      <date>10/03/2010</date>
-      <date>10/04/2010</date>
-      <date>10/05/2010</date>
-      <date>10/06/2010</date>
-      <date>10/07/2010</date>
+      <date name="元旦">01/01/2010</date>
+      <date name="元旦">01/02/2010</date>
+      <date name="元旦">01/03/2010</date>
+      <date name="春节">02/13/2010</date>
+      <date name="春节">02/14/2010</date>
+      <date name="春节">02/15/2010</date>
+      <date name="春节">02/16/2010</date>
+      <date name="春节">02/17/2010</date>
+      <date name="春节">02/18/2010</date>
+      <date name="春节">02/19/2010</date>
+      <date name="春节后工作日,调休,周六" WorkDay="True">02/20/2010</date>
+      <date name="春节后工作日,调休,周日" WorkDay="True">02/21/2010</date>
+      <date name="清明节">04/03/2010</date>
+      <date name="清明节">04/04/2010</date>
+      <date name="清明节">04/05/2010</date>
+      <date name="劳动节">05/01/2010</date>
+      <date name="劳动节">05/02/2010</date>
+      <date name="劳动节">05/03/2010</date>
+      <date name="端午节前工作日,调休,周六" WorkDay="True">06/12/2010</date>
+      <date name="端午节前工作日,调休,周日" WorkDay="True">06/13/2010</date>
+      <date name="端午节">06/14/2010</date>
+      <date name="端午节">06/15/2010</date>
+      <date name="端午节">06/16/2010</date>
+      <date name="中秋节前工作日,调休,周日" WorkDay="True">09/19/2010</date>
+      <date name="中秋节">09/22/2010</date>
+      <date name="中秋节">09/23/2010</date>
+      <date name="中秋节">09/24/2010</date>
+      <date name="中秋节后工作日,调休,周六" WorkDay="True">09/25/2010</date>
+      <date name="国庆节前工作日,调休,周日" WorkDay="True">09/26/2010</date>
+      <date name="国庆节">10/01/2010</date>
+      <date name="国庆节">10/02/2010</date>
+      <date name="国庆节">10/03/2010</date>
+      <date name="国庆节">10/04/2010</date>
+      <date name="国庆节">10/05/2010</date>
+      <date name="国庆节">10/06/2010</date>
+      <date name="国庆节">10/07/2010</date>
+      <date name="国庆节后工作日,调休,周六" WorkDay="True">10/09/2010</date>
     </year>
     <year id="2011">
-      <date>01/01/2011</date>
-      <date>01/02/2011</date>
-      <date>01/03/2011</date>
-      <date>02/02/2011</date>
-      <date>02/03/2011</date>
-      <date>02/04/2011</date>
-      <date>02/05/2011</date>
-      <date>02/06/2011</date>
-      <date>02/07/2011</date>
-      <date>02/08/2011</date>
-      <date>04/03/2011</date>
-      <date>04/04/2011</date>
-      <date>04/05/2011</date>
-      <date>04/30/2011</date>
-      <date>05/01/2011</date>
-      <date>05/02/2011</date>
-      <date>06/04/2011</date>
-      <date>06/05/2011</date>
-      <date>06/06/2011</date>
-      <date>09/10/2011</date>
-      <date>09/11/2011</date>
-      <date>09/12/2011</date>
-      <date>10/01/2011</date>
-      <date>10/02/2011</date>
-      <date>10/03/2011</date>
-      <date>10/04/2011</date>
-      <date>10/05/2011</date>
-      <date>10/06/2011</date>
-      <date>10/07/2011</date>
+      <date name="元旦">01/01/2011</date>
+      <date name="元旦">01/02/2011</date>
+      <date name="元旦">01/03/2011</date>
+      <date name="春节前工作日,调休,周日" WorkDay="True">01/30/2011</date>
+      <date name="春节">02/02/2011</date>
+      <date name="春节">02/03/2011</date>
+      <date name="春节">02/04/2011</date>
+      <date name="春节">02/05/2011</date>
+      <date name="春节">02/06/2011</date>
+      <date name="春节">02/07/2011</date>
+      <date name="春节">02/08/2011</date>
+      <date name="春节后工作日,调休,周六" WorkDay="True">02/12/2011</date>
+      <date name="清明节前工作日,调休,周六" WorkDay="True">04/02/2011</date>
+      <date name="清明节">04/03/2011</date>
+      <date name="清明节">04/04/2011</date>
+      <date name="清明节">04/05/2011</date>
+      <date name="劳动节">04/30/2011</date>
+      <date name="劳动节">05/01/2011</date>
+      <date name="劳动节">05/02/2011</date>
+      <date name="端午节">06/04/2011</date>
+      <date name="端午节">06/05/2011</date>
+      <date name="端午节">06/06/2011</date>
+      <date name="中秋节">09/10/2011</date>
+      <date name="中秋节">09/11/2011</date>
+      <date name="中秋节">09/12/2011</date>
+      <date name="国庆节">10/01/2011</date>
+      <date name="国庆节">10/02/2011</date>
+      <date name="国庆节">10/03/2011</date>
+      <date name="国庆节">10/04/2011</date>
+      <date name="国庆节">10/05/2011</date>
+      <date name="国庆节">10/06/2011</date>
+      <date name="国庆节后工作日,调休,周六" WorkDay="True">10/08/2011</date>
+      <date name="国庆节后工作日,调休,周日" WorkDay="True">10/09/2011</date>
+      <date name="元旦前工作日,调休,周六" WorkDay="True">12/31/2012</date>
     </year>
     <year id="2012">
-      <date>01/01/2012</date>
-      <date>01/02/2012</date>
-      <date>01/03/2012</date>
-      <date>01/22/2012</date>
-      <date>01/23/2012</date>
-      <date>01/24/2012</date>
-      <date>01/25/2012</date>
-      <date>01/26/2012</date>
-      <date>01/27/2012</date>
-      <date>01/28/2012</date>
-      <date>04/02/2012</date>
-      <date>04/03/2012</date>
-      <date>04/04/2012</date>
-      <date>04/29/2012</date>
-      <date>04/30/2012</date>
-      <date>05/01/2012</date>
-      <date>06/22/2012</date>
-      <date>06/23/2012</date>
-      <date>06/24/2012</date>
-      <date>09/30/2012</date>
-      <date>10/01/2012</date>
-      <date>10/02/2012</date>
-      <date>10/03/2012</date>
-      <date>10/04/2012</date>
-      <date>10/05/2012</date>
-      <date>10/06/2012</date>
-      <date>10/07/2012</date>
+      <date name="元旦">01/01/2012</date>
+      <date name="元旦">01/02/2012</date>
+      <date name="元旦">01/03/2012</date>
+      <date name="春节">01/22/2012</date>
+      <date name="春节">01/23/2012</date>
+      <date name="春节">01/24/2012</date>
+      <date name="春节">01/25/2012</date>
+      <date name="春节">01/26/2012</date>
+      <date name="春节">01/27/2012</date>
+      <date name="春节">01/28/2012</date>
+      <date name="春节后工作日,调休,周日" WorkDay="True">01/29/2012</date>
+      <date name="清明节前工作日,调休,周六" WorkDay="True">03/31/2012</date>
+      <date name="清明节前工作日,调休,周日" WorkDay="True">04/01/2012</date>
+      <date name="清明节">04/02/2012</date>
+      <date name="清明节">04/03/2012</date>
+      <date name="清明节">04/04/2012</date>
+      <date name="劳动节前工作日,调休,周六" WorkDay="True">04/28/2012</date>
+      <date name="劳动节">04/29/2012</date>
+      <date name="劳动节">04/30/2012</date>
+      <date name="劳动节">05/01/2012</date>
+      <date name="端午节">06/22/2012</date>
+      <date name="端午节">06/23/2012</date>
+      <date name="端午节">06/24/2012</date>
+      <date name="中秋节前工作日,调休,周六" WorkDay="True">09/29/2012</date>
+      <date name="中秋节">09/30/2012</date>
+      <date name="国庆节">10/01/2012</date>
+      <date name="国庆节">10/02/2012</date>
+      <date name="国庆节">10/03/2012</date>
+      <date name="国庆节">10/04/2012</date>
+      <date name="国庆节">10/05/2012</date>
+      <date name="国庆节">10/06/2012</date>
+      <date name="国庆节">10/07/2012</date>
     </year>
     <year id="2013">
-      <date>01/01/2013</date>
-      <date>01/02/2013</date>
-      <date>01/03/2013</date>
-      <date>02/11/2013</date>
-      <date>02/12/2013</date>
-      <date>02/13/2013</date>
-      <date>02/14/2013</date>
-      <date>02/15/2013</date>
-      <date>04/04/2013</date>
-      <date>04/05/2013</date>
-      <date>04/29/2013</date>
-      <date>04/30/2013</date>
-      <date>05/01/2013</date>
-      <date>06/10/2013</date>
-      <date>06/11/2013</date>
-      <date>06/12/2013</date>
-      <date>09/19/2013</date>
-      <date>09/20/2013</date>
-      <date>10/01/2013</date>
-      <date>10/02/2013</date>
-      <date>10/03/2013</date>
-      <date>10/04/2013</date>
-      <date>10/07/2013</date>
+      <date name="元旦">01/01/2013</date>
+      <date name="元旦">01/02/2013</date>
+      <date name="元旦">01/03/2013</date>
+      <date name="元旦后工作日,调休,周六" WorkDay="True">01/05/2015</date>
+      <date name="元旦后工作日,调休,周日" WorkDay="True">01/06/2015</date>
+      <date name="春节">02/09/2013</date>
+      <date name="春节">02/10/2013</date>
+      <date name="春节">02/11/2013</date>
+      <date name="春节">02/12/2013</date>
+      <date name="春节">02/13/2013</date>
+      <date name="春节">02/14/2013</date>
+      <date name="春节">02/15/2013</date>
+      <date name="春节后工作日,调休,周六" WorkDay="True">02/16/2013</date>
+      <date name="春节后工作日,调休,周日" WorkDay="True">02/17/2013</date>
+      <date name="清明节">04/04/2013</date>
+      <date name="清明节">04/05/2013</date>
+      <date name="清明节">04/06/2013</date>
+      <date name="清明节后工作日,调休,周日" WorkDay="True">04/07/2013</date>
+      <date name="劳动节前工作日,调休,周六" WorkDay="True">04/27/2013</date>
+      <date name="劳动节前工作日,调休,周日" WorkDay="True">04/28/2013</date>
+      <date name="劳动节">04/29/2013</date>
+      <date name="劳动节">04/30/2013</date>
+      <date name="劳动节">05/01/2013</date>
+      <date name="端午节前工作日,调休,周六" WorkDay="True">06/08/2013</date>
+      <date name="端午节前工作日,调休,周日" WorkDay="True">06/09/2013</date>
+      <date name="端午节">06/10/2013</date>
+      <date name="端午节">06/11/2013</date>
+      <date name="端午节">06/12/2013</date>
+      <date name="中秋节">09/19/2013</date>
+      <date name="中秋节">09/20/2013</date>
+      <date name="中秋节">09/21/2013</date>
+      <date name="中秋节后工作日,调休,周日" WorkDay="True">09/22/2013</date>
+      <date name="国庆节前工作日,调休,周日" WorkDay="True">09/29/2013</date>
+      <date name="国庆节">10/01/2013</date>
+      <date name="国庆节">10/02/2013</date>
+      <date name="国庆节">10/03/2013</date>
+      <date name="国庆节">10/04/2013</date>
+      <date name="国庆节">10/05/2013</date>
+      <date name="国庆节">10/06/2013</date>
+      <date name="国庆节">10/07/2013</date>
+      <date name="国庆节后工作日,调休,周六" WorkDay="True">10/12/2013</date>
     </year>
     <year id="2014">
-      <date>01/01/2014</date>
-      <date>01/31/2014</date>
-      <date>02/01/2014</date>
-      <date>02/02/2014</date>
-      <date>02/03/2014</date>
-      <date>02/04/2014</date>
-      <date>02/05/2014</date>
-      <date>02/06/2014</date>
-      <date>04/05/2014</date>
-      <date>04/06/2014</date>
-      <date>04/07/2014</date>
-      <date>05/01/2014</date>
-      <date>05/02/2014</date>
-      <date>05/03/2014</date>
-      <date>05/31/2014</date>
-      <date>06/01/2014</date>
-      <date>06/02/2014</date>
-      <date>09/06/2014</date>
-      <date>09/07/2014</date>
-      <date>09/08/2014</date>
-      <date>10/01/2014</date>
-      <date>10/02/2014</date>
-      <date>10/03/2014</date>
-      <date>10/04/2014</date>
-      <date>10/05/2014</date>
-      <date>10/06/2014</date>
-      <date>10/07/2014</date>
+      <date name="元旦">01/01/2014</date>
+      <date name="春节前工作日,调休,周日" WorkDay="True">01/26/2014</date>
+      <date name="春节">01/31/2014</date>
+      <date name="春节">02/01/2014</date>
+      <date name="春节">02/02/2014</date>
+      <date name="春节">02/03/2014</date>
+      <date name="春节">02/04/2014</date>
+      <date name="春节">02/05/2014</date>
+      <date name="春节">02/06/2014</date>
+      <date name="春节后工作日,调休,周六" WorkDay="True">02/08/2015</date>
+      <date name="清明节">04/05/2014</date>
+      <date name="清明节">04/06/2014</date>
+      <date name="清明节">04/07/2014</date>
+      <date name="劳动节">05/01/2014</date>
+      <date name="劳动节">05/02/2014</date>
+      <date name="劳动节">05/03/2014</date>
+      <date name="劳动节后工作日,调休,周日" WorkDay="True">05/04/2014</date>
+      <date name="端午节">05/31/2014</date>
+      <date name="端午节">06/01/2014</date>
+      <date name="端午节">06/02/2014</date>
+      <date name="中秋节">09/06/2014</date>
+      <date name="中秋节">09/07/2014</date>
+      <date name="中秋节">09/08/2014</date>
+      <date name="国庆节前工作日,调休,周日" WorkDay="True">09/28/2014</date>
+      <date name="国庆节">10/01/2014</date>
+      <date name="国庆节">10/02/2014</date>
+      <date name="国庆节">10/03/2014</date>
+      <date name="国庆节">10/04/2014</date>
+      <date name="国庆节">10/05/2014</date>
+      <date name="国庆节">10/06/2014</date>
+      <date name="国庆节">10/07/2014</date>
+      <date name="国庆节后工作日,调休,周六" WorkDay="True">10/11/2014</date>
     </year>
     <year id="2015">
-      <date>01/01/2015</date>
-      <date>01/02/2015</date>
-      <date>02/18/2015</date>
-      <date>02/19/2015</date>
-      <date>02/20/2015</date>
-      <date>02/23/2015</date>
-      <date>02/24/2015</date>
-      <date>04/06/2015</date>
-      <date>05/01/2015</date>
-      <date>05/02/2015</date>
-      <date>05/03/2015</date>
-      <date>06/22/2015</date>
-      <date>09/03/2015</date>
-      <date>09/04/2015</date>
+      <date name="元旦">01/01/2015</date>
+      <date name="元旦">01/02/2015</date>
+      <date name="元旦">01/03/2015</date>
+      <date name="元旦后工作日,调休,周日" WorkDay="True">01/04/2015</date>
+      <date name="春节前工作日,调休,周日" WorkDay="True">02/15/2015</date>
+      <date name="春节">02/18/2015"</date>
+      <date name="春节">02/19/2015</date>
+      <date name="春节">02/20/2015</date>
+      <date name="春节">02/21/2015</date>
+      <date name="春节">02/22/2015</date>
+      <date name="春节">02/23/2015</date>
+      <date name="春节">02/24/2015</date>
+      <date name="春节后工作日,调休,周六" WorkDay="True">02/28/2015</date>
+      <date name="清明节">04/04/2015</date>
+      <date name="清明节">04/05/2015</date>
+      <date name="清明节">04/06/2015</date>
+      <date name="劳动节">05/01/2015</date>
+      <date name="劳动节">05/02/2015</date>
+      <date name="劳动节">05/03/2015</date>
+      <date name="劳动节">06/20/2015</date>
+      <date name="端午节">06/21/2015</date>
+      <date name="端午节">06/22/2015</date>
+      <date name="胜利日">09/03/2015</date>
+      <date name="胜利日">09/04/2015</date>
+      <date name="胜利日">09/05/2015</date>
+      <date name="胜利日后工作日,调休,周日" WorkDay="True">09/06/2015</date>
       <!--2015/09/26与2015/09/27尽管是周六周日，但是是中秋节假日，所以没有夜盘
              所以这里还是列出
       -->
-      <date>09/26/2015</date>
-      <date>09/27/2015</date>
-      <date>10/01/2015</date>
-      <date>10/02/2015</date>
-      <date>10/03/2015</date>
-      <date>10/04/2015</date>
-      <date>10/05/2015</date>
-      <date>10/06/2015</date>
-      <date>10/07/2015</date>
+      <date name="中秋节">09/26/2015</date>
+      <date name="中秋节">09/27/2015</date>
+      <date name="国庆节">10/01/2015</date>
+      <date name="国庆节">10/02/2015</date>
+      <date name="国庆节">10/03/2015</date>
+      <date name="国庆节">10/04/2015</date>
+      <date name="国庆节">10/05/2015</date>
+      <date name="国庆节">10/06/2015</date>
+      <date name="国庆节">10/07/2015</date>
+      <date name="国庆节后工作日,调休,周六" WorkDay="True">10/10/2015</date>
     </year>
     <year id="2016">
       <date name="元旦">01/01/2016</date>
