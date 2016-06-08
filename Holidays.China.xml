@@ -434,6 +434,10 @@
       <date name="劳动节">04/30/2016</date>
       <date name="劳动节">05/01/2016</date>
       <date name="劳动节">05/02/2016</date>
+      <date name="端午节">06/08/2016</date>
+      <date name="端午节">06/09/2016</date>
+      <date name="端午节">06/10/2016</date>
+      <date name="端午节后第一个工作日，周日" WorkDay="True">06/11/2016</date>
     </year>
   </Holidays>
 </Root>
