@@ -1,4 +1,4 @@
-<Root Version="20161119">
+<Root Version="20161130.000001">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/FuturesInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -16,8 +16,7 @@
         <KeyDate StartDate="20100628">
           <Category eKeyDay="Common">
             <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>f
-            <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange><TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange><TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange><TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
-          </Category>
+            <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange><TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange><TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange><TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange></Category>
         </KeyDate>
       </TradeTimeRanges>
       <Varieties>
@@ -65,7 +64,7 @@
         <al Description="沪铝" CreateDate="2002-01-07" ContractMultiplier="5" TickSize="5" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <!-- SHFE可以查询到的最早的交易日期为2002-01-07-->
           <ContractMonths>
-            <KeyDate StartDate="20020107" CreateDateContracts="" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20020107" CreateDateContracts="0201" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -185,9 +184,9 @@
           </TradeTimeRanges>
         </au>
         <!--http://www.shfe.com.cn/news/notice/38235956.html-->
-        <bu Description="石油沥青" CreateDate="2013-10-09" CreateDateContracts="1402,1403,1406,1409,1412,1503,1506,1509" ContractMultiplier="10" TickSize="2" LastTradingDate="eDay15" ContractMonth="eM6S6" Margin="0.04" Commission="0.00003" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <bu Description="石油沥青" CreateDate="2013-10-09" ContractMultiplier="10" TickSize="2" LastTradingDate="eDay15" ContractMonth="eM6S6" Margin="0.04" Commission="0.00003" CommissionCategory="Ratio" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20131009" ContractMonth="eM6S6" LastTradingDate="eDay15">
+            <KeyDate StartDate="20131009" CreateDateContracts="1402,1403,1406,1409,1412,1503,1506,1509" ContractMonth="eM6S6" LastTradingDate="eDay15">
               <Special Contract="1502" LastTradingDay="20150210">
               </Special>
               <Special Contract="1508" IssueDay="20150216">
@@ -224,10 +223,10 @@
             </KeyDate>
           </TradeTimeRanges>
         </bu>
-        <cu Description="沪铜" CreateDate="2002-01-07" CreateDateContracts="0202" ContractMultiplier="5" TickSize="10" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.00005" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <cu Description="沪铜" CreateDate="2002-01-07" ContractMultiplier="5" TickSize="10" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.00005" CommissionCategory="Ratio" CommissionFrequency="e2">
           <!-- SHFE可以查询到的最早的交易日期为2002-01-07-->
           <ContractMonths>
-            <KeyDate StartDate="20020107" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20020107" CreateDateContracts="0202" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -279,7 +278,7 @@
           </TradeTimeRanges>
         </cu>
         <!--http://www.shfe.com.cn/news/notice/4742466.html 合约交割月份前一月份的最后一个交易日-->
-        <fu Description="燃料油" CreateDate="2004-08-25" CreateDateContracts="" ContractMultiplier="50" TickSize="1" LastTradingDate="ePreMonthLastDay" ContractMonth="eNLunarMon" Margin="0.08" Commission="0.00002" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <fu Description="燃料油" CreateDate="2004-08-25" CreateDateContracts="0408" ContractMultiplier="50" TickSize="1" LastTradingDate="ePreMonthLastDay" ContractMonth="eNLunarMon" Margin="0.08" Commission="0.00002" CommissionCategory="Ratio" CommissionFrequency="e2">
         </fu>
         <hc Description="热轧卷板" CreateDate="2014-03-21" ContractMultiplier="10" TickSize="2" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.04" Commission="0.000045" CommissionCategory="Ratio" CommissionFrequency="e2">
           <!-- -->
@@ -346,9 +345,9 @@
           </TradeTimeRanges>
         </ni>
         <!--http://www.shfe.com.cn/news/notice/12185742.html-->
-        <pb Description="沪铅" CreateDate="2011-03-24" CreateDateContracts="" ContractMultiplier="5" TickSize="5" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.00004" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <pb Description="沪铅" CreateDate="2011-03-24" ContractMultiplier="5" TickSize="5" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.00004" CommissionCategory="Ratio" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20110324" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20110324" CreateDateContracts="1109,1110,1111,1112,1201,1202,1203" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -390,9 +389,9 @@
           </TradeTimeRanges>
         </pb>
         <!--http://www.shfe.com.cn/news/notice/92235792.html-->
-        <rb Description="螺纹钢" CreateDate="2009-03-27" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.000045" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <rb Description="螺纹钢" CreateDate="2009-03-27" ContractMultiplier="10" TickSize="1" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="0.000045" CommissionCategory="Ratio" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20090327" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20090327" CreateDateContracts="0909,0910,0911,0912,1001,1002,1003" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -443,7 +442,7 @@
             </KeyDate>
           </TradeTimeRanges>
         </rb>
-        <ru Description="天然橡胶" CreateDate="2002-01-07" CreateDateContracts="" ContractMultiplier="10" TickSize="5" LastTradingDate="eDay15" ContractMonth="eNMon2NMon12" Margin="0.04" Commission="0.000045" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <ru Description="天然橡胶" CreateDate="2002-01-07" ContractMultiplier="10" TickSize="5" LastTradingDate="eDay15" ContractMonth="eNMon2NMon12" Margin="0.04" Commission="0.000045" CommissionCategory="Ratio" CommissionFrequency="e2">
           <!--SHFE交易所能查阅到的最早的天然橡胶数据是2002-01-07
               天胶：1993年11月
               说明：天胶期货合约曾在海南中商期货交易所和上海商品交易所上市，
@@ -456,7 +455,7 @@
               1998年下半年到1999年上半年，中国期货市场经历第二次重组合并，
               上海期货交易所成为我国唯一合法上市交易天然橡胶的期货合约场所。-->
           <ContractMonths>
-            <KeyDate StartDate="20020107" ContractMonth="eNMon2NMon12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20020107" CreateDateContracts="0201,0203,0204,0205,0206,0207,0208,0209,0210,0211" ContractMonth="eNMon2NMon12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -525,9 +524,9 @@
             </KeyDate>
           </TradeTimeRanges>
         </sn>
-        <wr Description="线材" CreateDate="2009-03-27" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.07" Commission="0.00004" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <wr Description="线材" CreateDate="2009-03-27" ContractMultiplier="10" TickSize="1" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.07" Commission="0.00004" CommissionCategory="Ratio" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20090327" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20090327" CreateDateContracts="0909,0910,0911,0912,1001,1002,1003" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -540,9 +539,9 @@
           </ContractMonths>
         </wr>
         <!--http://www.shfe.com.cn/news/notice/72227340.html-->
-        <zn Description="沪锌" CreateDate="2007-03-26" CreateDateContracts="" ContractMultiplier="5" TickSize="5" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <zn Description="沪锌" CreateDate="2007-03-26" ContractMultiplier="5" TickSize="5" LastTradingDate="eDay15" ContractMonth="eM12" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20070326" ContractMonth="eM12" LastTradingDate="eDay15">
+            <KeyDate StartDate="20070326" CreateDateContracts="0707,0708,0709,0710,0711,0712,0801,0802,0803" ContractMonth="eM12" LastTradingDate="eDay15">
               <Special Contract="1201" LastTradingDay="20120113">
               </Special>
               <Special Contract="1301" IssueDay="20120116">
@@ -610,7 +609,9 @@
       <Varieties>
         <!--http://www.dce.com.cn/portal/cate?cid=1325234746100-->
         <!--http://www.cfachina.org/workdoc/tj/25.pdf.pdf-->
-        <a Description="豆一" CreateDate="1993-02-28" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddC9" Margin="0.05" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <!--从官网数据读取-->
+        <!--http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/rtj/rxq/index.html-->
+        <a Description="豆一" CreateDate="2002-03-15" CreateDateContracts="0303,0305,0307" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddC9" Margin="0.05" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="19930228">
               <Category eKeyDay="Common">
@@ -662,7 +663,7 @@
             </KeyDate>
           </TradeTimeRanges>
         </a>
-        <b Description="豆二" CreateDate="2004-12-22" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <b Description="豆二" CreateDate="2004-12-22" CreateDateContracts="0503,0505,0507,0509,0511,0601" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20041222">
               <Category eKeyDay="Common">
@@ -717,7 +718,7 @@
         <bb Description="胶合板" CreateDate="2013-12-06" CreateDateContracts="1404,1405,1406,1407,1408,1409,1410,1411" ContractMultiplier="500" TickSize="0.05" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="0.0001" CommissionCategory="Ratio" CommissionFrequency="e2">
         </bb>
         <!--http://www.dce.com.cn/portal/info?cid=1272437227100&iid=8328&type=CMS.NEWS-->
-        <c Description="玉米" CreateDate="2004-09-21" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <c Description="玉米" CreateDate="2004-09-22" CreateDateContracts="0501,0503,0507,0509,0511" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
         </c>
         <cs Description="玉米淀粉" CreateDate="2014-12-19" CreateDateContracts="1503,1505,1507,1509,1511" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="1.5" CommissionCategory="Fixed" CommissionFrequency="e2">
         </cs>
@@ -901,10 +902,11 @@
             </KeyDate>
           </TradeTimeRanges>
         </jm>
-        <l Description="塑料" CreateDate="2007-07-31" CreateDateContracts="" ContractMultiplier="5" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="8" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <l Description="聚乙烯" CreateDate="2007-07-31" CreateDateContracts="0710,0711,0712,0801,0802,0803,0804,0805,0806,0807" ContractMultiplier="5" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="8" CommissionCategory="Fixed" CommissionFrequency="e2">
         </l>
         <!--http://www.dce.com.cn/portal/info?cid=1272437227100&iid=1117764556100&type=CMS.OPERATION_NOTIFY-->
-        <m Description="豆粕" CreateDate="2000-07-17" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddMon8Mon12" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <!--按照交易所数据-->
+        <m Description="豆粕" CreateDate="2000-07-17" CreateDateContracts="0010" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddMon8Mon12" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20000717">
               <Category eKeyDay="Common">
@@ -956,7 +958,7 @@
             </KeyDate>
           </TradeTimeRanges>
         </m>
-        <p Description="棕榈油" CreateDate="2007-10-29" CreateDateContracts="" ContractMultiplier="10" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <p Description="棕榈油" CreateDate="2007-10-29" CreateDateContracts="0801,0802,0803,0804,0805,0806,0807,0808,0809,0810" ContractMultiplier="10" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20071029">
               <Category eKeyDay="Common">
@@ -1010,9 +1012,9 @@
         </p>
         <pp Description="聚丙烯" CreateDate="2014-02-28" CreateDateContracts="1405,1406,1407,1408,1409,1410,1411,1412,1501,1502" ContractMultiplier="5" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
         </pp>
-        <v Description="PVC" CreateDate="2009-05-25" CreateDateContracts="" ContractMultiplier="5" TickSize="5" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <v Description="聚氯乙烯" CreateDate="2009-05-25" CreateDateContracts="0909,0910,0911,0912,1001,1002,1003,1004,1005" ContractMultiplier="5" TickSize="5" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
         </v>
-        <y Description="豆油" CreateDate="2006-01-09" CreateDateContracts="" ContractMultiplier="10" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eMOddMon8Mon12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <y Description="豆油" CreateDate="2006-01-09" CreateDateContracts="0603,0605,0607,0608,0609" ContractMultiplier="10" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eMOddMon8Mon12" Margin="0.05" Commission="6" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20060109">
               <Category eKeyDay="Common">
@@ -1079,9 +1081,9 @@
         </KeyDate>
       </TradeTimeRanges>
       <Varieties>
-        <CF Description="棉花" CreateDate="2004-06-01" CreateDateContracts="" ContractMultiplier="5" TickSize="5" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.5" Commission="4.3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <CF Description="棉花" CreateDate="2004-06-01" ContractMultiplier="5" TickSize="5" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.5" Commission="4.3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <ContractMonths>
-            <KeyDate StartDate="20040601" ContractMonth="eMOdd" LastTradingDate="eTDay10">
+            <KeyDate StartDate="20040601" CreateDateContracts="0407" ContractMonth="eMOdd" LastTradingDate="eTDay10">
               <!-- 2012年12月25日郑商所修改棉花期货合约及相关细则 CF311今挂盘-->
               <!-- http://news.xinhuanet.com/futures/2012-12/25/c_124144119.htm -->
               <Special Contract="1311" IssueDay="20121225">
@@ -1122,7 +1124,7 @@
         </CF>
         <!-- 2012年7月11日从ER修改为RI 取 RICE 前2个字母, 2012.07.24在er到期后(交割月倒数第7个交易日)RI1307上市  ER最后交易日为交割月份的倒数第7个交易日-->
         <!-- ER 最后一个合约为 ER1305 -->
-        <ER Description="早籼稻" CreateDate="2009-04-20" ExitDateContract="1305" ContractMultiplier="10" CreateDateContracts="" TickSize="1" LastTradingDate="eTDayNegative7" ContractMonth="eMOdd" Margin="0.05" Commission="2.5" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <ER Description="早籼稻" CreateDate="2009-04-20" CreateDateContracts="0905" ExitDateContract="1305" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDayNegative7" ContractMonth="eMOdd" Margin="0.05" Commission="2.5" CommissionCategory="Fixed" CommissionFrequency="e2">
         </ER>
         <!--http://www.czce.com.cn/portal/rootfiles/2012/11/28/1349588556742323-1349588556744811.pdf-->
         <FG Description="玻璃" CreateDate="2012-12-03" CreateDateContracts="1303,1304,1305,1306,1307,1308,1309,1310,1311" ContractMultiplier="20" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.06" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
@@ -1157,7 +1159,7 @@
           </TradeTimeRanges>
         </FG>
         <!--http://www.czce.com.cn/portal/rootfiles/2013/11/14/1383304259473565-1383304259475608.pdf-->
-        <JR Description="粳稻" CreateDate="2013-11-18" CreateDateContracts="" ContractMultiplier="20" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <JR Description="粳稻" CreateDate="2013-11-18" CreateDateContracts="1403,1405,1407,1409,1411" ContractMultiplier="20" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
         </JR>
         <LR Description="晚籼稻" CreateDate="2014-07-08" CreateDateContracts="1411,1501,1503,1505" ContractMultiplier="20" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
         </LR>
@@ -1235,7 +1237,7 @@
         <RI Description="早籼稻" CreateDate="2012-07-24" ContractMultiplier="20" CreateDateContracts="1307" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="2.5" CommissionCategory="Fixed" CommissionFrequency="e2">
         </RI>
         <!--http://www.czce.com.cn/portal/rootfiles/2012/12/26/1356346927698038-1356346927700227.pdf-->
-        <RM Description="菜籽粕" CreateDate="2012-12-28" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddMon8" Margin="0.05" Commission="1.5" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <RM Description="菜籽粕" CreateDate="2012-12-28" CreateDateContracts="1305,1307,1308,1309,1311" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddMon8" Margin="0.05" Commission="1.5" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20121228">
               <Category eKeyDay="Common">
@@ -1267,16 +1269,16 @@
           </TradeTimeRanges>
         </RM>
         <!--RO 菜籽油 在2012年修改为OI,RO1307为其最后一个合约-->
-        <RO Description="菜籽油" CreateDate="2009-04-20" ExitDateContract="1305" CreateDateContracts="" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="2.5" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <RO Description="菜籽油" CreateDate="2009-04-20" CreateDateContracts="0905,0907,0911,1001,1003" ExitDateContract="1305" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.05" Commission="2.5" CommissionCategory="Fixed" CommissionFrequency="e2">
         </RO>
         <!--http://www.czce.com.cn/portal/rootfiles/2012/12/26/1356346927698038-1356346927700227.pdf-->
-        <RS Description="油菜籽" CreateDate="2012-12-28" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMon7Mon8Mon9Mon11" Margin="0.05" Commission="2" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <RS Description="油菜籽" CreateDate="2012-12-28" CreateDateContracts="1307,1308,1309,1311" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMon7Mon8Mon9Mon11" Margin="0.05" Commission="2" CommissionCategory="Fixed" CommissionFrequency="e2">
         </RS>
         <SF Description="硅铁" CreateDate="2014-08-08" CreateDateContracts="1411,1412,1501,1502,1503,1504,1505,1506,1507" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="10" CommissionCategory="Fixed" CommissionFrequency="e2">
         </SF>
         <SM Description="锰硅" CreateDate="2014-08-08" CreateDateContracts="1411,1412,1501,1502,1503,1504,1505,1506,1507" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.05" Commission="10" CommissionCategory="Fixed" CommissionFrequency="e2">
         </SM>
-        <SR Description="白糖" CreateDate="2006-01-06" CreateDateContracts="" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddC9" Margin="0.06" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <SR Description="白糖" CreateDate="2006-01-06" CreateDateContracts="0605,0607,0609,0611,0701,0703" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="eMOddC9" Margin="0.06" Commission="3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20060106">
               <Category eKeyDay="Common">
@@ -1307,7 +1309,7 @@
             </KeyDate>
           </TradeTimeRanges>
         </SR>
-        <TA Description="PTA" CreateDate="2006-12-18" IgnoreContract="TA0701" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.06" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <TA Description="PTA" CreateDate="2006-12-18" CreateDateContracts="0702,0703,0704,0705,0706,0707" IgnoreContract="TA0701" ContractMultiplier="5" TickSize="2" LastTradingDate="eTDay10" ContractMonth="eM12" Margin="0.06" Commission="4" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20061218">
               <Category eKeyDay="Common">
@@ -1340,7 +1342,7 @@
         </TA>
         <!--上市公告 http://www.czce.com.cn/portal/rootfiles/2013/10/08/1380292484924686-1380292484926515.pdf-->
         <!--换合约公告 http://www.czce.com.cn/portal/rootfiles/2015/05/08/1425547808690959-1425547808761440.pdf -->
-        <TC Description="动力煤" CreateDate="2013-09-26" CreateDateContracts="" ExitDateContract="1604" ContractMultiplier="200" TickSize="0.2" LastTradingDate="eTDay5" ContractMonth="eM12" Margin="0.05" Commission="8" CommissionCategory="Fixed" CommissionFrequency="e2">
+        <TC Description="动力煤" CreateDate="2013-09-26" CreateDateContracts="1312,1401,1402,1403,1404,1405,1406,1407,1408,1409" ExitDateContract="1604" ContractMultiplier="200" TickSize="0.2" LastTradingDate="eTDay5" ContractMonth="eM12" Margin="0.05" Commission="8" CommissionCategory="Fixed" CommissionFrequency="e2">
           <TradeTimeRanges>
             <KeyDate StartDate="20130926">
               <Category eKeyDay="Common">
@@ -1549,618 +1551,8 @@
           </Category>
         </KeyDate>
       </TradeTimeRanges>
-      <Constituents>
-        <HS300 Id="000300.SH">
-          <KeyDate StartDate="19900101">
-            <Variety Id="">
-            </Variety>
-            <Variety>000001.SZ</Variety>
-            <Variety>000002.SZ</Variety>
-            <Variety>000009.SZ</Variety>
-            <Variety>000012.SZ</Variety>
-            <Variety>000021.SZ</Variety>
-            <Variety>000024.SZ</Variety>
-            <Variety>000027.SZ</Variety>
-            <Variety>000031.SZ</Variety>
-            <Variety>000039.SZ</Variety>
-            <Variety>000046.SZ</Variety>
-            <Variety>000059.SZ</Variety>
-            <Variety>000060.SZ</Variety>
-            <Variety>000061.SZ</Variety>
-            <Variety>000063.SZ</Variety>
-            <Variety>000069.SZ</Variety>
-            <Variety>000089.SZ</Variety>
-            <Variety>000100.SZ</Variety>
-            <Variety>000157.SZ</Variety>
-            <Variety>000338.SZ</Variety>
-            <Variety>000401.SZ</Variety>
-            <Variety>000402.SZ</Variety>
-            <Variety>000422.SZ</Variety>
-            <Variety>000423.SZ</Variety>
-            <Variety>000425.SZ</Variety>
-            <Variety>000488.SZ</Variety>
-            <Variety>000527.SZ</Variety>
-            <Variety>000528.SZ</Variety>
-            <Variety>000538.SZ</Variety>
-            <Variety>000562.SZ</Variety>
-            <Variety>000568.SZ</Variety>
-            <Variety>000612.SZ</Variety>
-            <Variety>000623.SZ</Variety>
-            <Variety>000625.SZ</Variety>
-            <Variety>000630.SZ</Variety>
-            <Variety>000631.SZ</Variety>
-            <Variety>000651.SZ</Variety>
-            <Variety>000652.SZ</Variety>
-            <Variety>000667.SZ</Variety>
-            <Variety>000680.SZ</Variety>
-            <Variety>000685.SZ</Variety>
-            <Variety>000686.SZ</Variety>
-            <Variety>000690.SZ</Variety>
-            <Variety>000709.SZ</Variety>
-            <Variety>000717.SZ</Variety>
-            <Variety>000718.SZ</Variety>
-            <Variety>000725.SZ</Variety>
-            <Variety>000728.SZ</Variety>
-            <Variety>000729.SZ</Variety>
-            <Variety>000758.SZ</Variety>
-            <Variety>000768.SZ</Variety>
-            <Variety>000778.SZ</Variety>
-            <Variety>000780.SZ</Variety>
-            <Variety>000783.SZ</Variety>
-            <Variety>000792.SZ</Variety>
-            <Variety>000800.SZ</Variety>
-            <Variety>000807.SZ</Variety>
-            <Variety>000825.SZ</Variety>
-            <Variety>000839.SZ</Variety>
-            <Variety>000858.SZ</Variety>
-            <Variety>000876.SZ</Variety>
-            <Variety>000878.SZ</Variety>
-            <Variety>000895.SZ</Variety>
-            <Variety>000897.SZ</Variety>
-            <Variety>000898.SZ</Variety>
-            <Variety>000900.SZ</Variety>
-            <Variety>000927.SZ</Variety>
-            <Variety>000932.SZ</Variety>
-            <Variety>000933.SZ</Variety>
-            <Variety>000937.SZ</Variety>
-            <Variety>000951.SZ</Variety>
-            <Variety>000959.SZ</Variety>
-            <Variety>000960.SZ</Variety>
-            <Variety>000961.SZ</Variety>
-            <Variety>000968.SZ</Variety>
-            <Variety>000969.SZ</Variety>
-            <Variety>000983.SZ</Variety>
-            <Variety>000999.SZ</Variety>
-            <Variety>002001.SZ</Variety>
-            <Variety>002007.SZ</Variety>
-            <Variety>002024.SZ</Variety>
-            <Variety>002028.SZ</Variety>
-            <Variety>002122.SZ</Variety>
-            <Variety>002128.SZ</Variety>
-            <Variety>002142.SZ</Variety>
-            <Variety>002155.SZ</Variety>
-            <Variety>002202.SZ</Variety>
-            <Variety>002242.SZ</Variety>
-            <Variety>002244.SZ</Variety>
-            <Variety>002304.SZ</Variety>
-            <Variety>600000.SH</Variety>
-            <Variety>600004.SH</Variety>
-            <Variety>600005.SH</Variety>
-            <Variety>600006.SH</Variety>
-            <Variety>600008.SH</Variety>
-            <Variety>600009.SH</Variety>
-            <Variety>600010.SH</Variety>
-            <Variety>600011.SH</Variety>
-            <Variety>600015.SH</Variety>
-            <Variety>600016.SH</Variety>
-            <Variety>600017.SH</Variety>
-            <Variety>600018.SH</Variety>
-            <Variety>600019.SH</Variety>
-            <Variety>600022.SH</Variety>
-            <Variety>600026.SH</Variety>
-            <Variety>600027.SH</Variety>
-            <Variety>600028.SH</Variety>
-            <Variety>600029.SH</Variety>
-            <Variety>600030.SH</Variety>
-            <Variety>600031.SH</Variety>
-            <Variety>600033.SH</Variety>
-            <Variety>600036.SH</Variety>
-            <Variety>600037.SH</Variety>
-            <Variety>600048.SH</Variety>
-            <Variety>600050.SH</Variety>
-            <Variety>600058.SH</Variety>
-            <Variety>600062.SH</Variety>
-            <Variety>600066.SH</Variety>
-            <Variety>600068.SH</Variety>
-            <Variety>600085.SH</Variety>
-            <Variety>600087.SH</Variety>
-            <Variety>600089.SH</Variety>
-            <Variety>600096.SH</Variety>
-            <Variety>600100.SH</Variety>
-            <Variety>600102.SH</Variety>
-            <Variety>600104.SH</Variety>
-            <Variety>600108.SH</Variety>
-            <Variety>600109.SH</Variety>
-            <Variety>600111.SH</Variety>
-            <Variety>600118.SH</Variety>
-            <Variety>600123.SH</Variety>
-            <Variety>600125.SH</Variety>
-            <Variety>600132.SH</Variety>
-            <Variety>600143.SH</Variety>
-            <Variety>600150.SH</Variety>
-            <Variety>600151.SH</Variety>
-            <Variety>600153.SH</Variety>
-            <Variety>600161.SH</Variety>
-            <Variety>600166.SH</Variety>
-            <Variety>600169.SH</Variety>
-            <Variety>600170.SH</Variety>
-            <Variety>600177.SH</Variety>
-            <Variety>600183.SH</Variety>
-            <Variety>600188.SH</Variety>
-            <Variety>600196.SH</Variety>
-            <Variety>600208.SH</Variety>
-            <Variety>600210.SH</Variety>
-            <Variety>600216.SH</Variety>
-            <Variety>600219.SH</Variety>
-            <Variety>600220.SH</Variety>
-            <Variety>600221.SH</Variety>
-            <Variety>600236.SH</Variety>
-            <Variety>600239.SH</Variety>
-            <Variety>600246.SH</Variety>
-            <Variety>600251.SH</Variety>
-            <Variety>600256.SH</Variety>
-            <Variety>600266.SH</Variety>
-            <Variety>600269.SH</Variety>
-            <Variety>600271.SH</Variety>
-            <Variety>600282.SH</Variety>
-            <Variety>600300.SH</Variety>
-            <Variety>600307.SH</Variety>
-            <Variety>600309.SH</Variety>
-            <Variety>600312.SH</Variety>
-            <Variety>600316.SH</Variety>
-            <Variety>600320.SH</Variety>
-            <Variety>600325.SH</Variety>
-            <Variety>600331.SH</Variety>
-            <Variety>600348.SH</Variety>
-            <Variety>600350.SH</Variety>
-            <Variety>600352.SH</Variety>
-            <Variety>600362.SH</Variety>
-            <Variety>600369.SH</Variety>
-            <Variety>600376.SH</Variety>
-            <Variety>600380.SH</Variety>
-            <Variety>600383.SH</Variety>
-            <Variety>600395.SH</Variety>
-            <Variety>600415.SH</Variety>
-            <Variety>600418.SH</Variety>
-            <Variety>600426.SH</Variety>
-            <Variety>600428.SH</Variety>
-            <Variety>600432.SH</Variety>
-            <Variety>600456.SH</Variety>
-            <Variety>600489.SH</Variety>
-            <Variety>600497.SH</Variety>
-            <Variety>600500.SH</Variety>
-            <Variety>600508.SH</Variety>
-            <Variety>600516.SH</Variety>
-            <Variety>600517.SH</Variety>
-            <Variety>600518.SH</Variety>
-            <Variety>600519.SH</Variety>
-            <Variety>600528.SH</Variety>
-            <Variety>600547.SH</Variety>
-            <Variety>600549.SH</Variety>
-            <Variety>600550.SH</Variety>
-            <Variety>600569.SH</Variety>
-            <Variety>600583.SH</Variety>
-            <Variety>600585.SH</Variety>
-            <Variety>600588.SH</Variety>
-            <Variety>600595.SH</Variety>
-            <Variety>600596.SH</Variety>
-            <Variety>600597.SH</Variety>
-            <Variety>600598.SH</Variety>
-            <Variety>600600.SH</Variety>
-            <Variety>600601.SH</Variety>
-            <Variety>600611.SH</Variety>
-            <Variety>600631.SH</Variety>
-            <Variety>600635.SH</Variety>
-            <Variety>600642.SH</Variety>
-            <Variety>600643.SH</Variety>
-            <Variety>600649.SH</Variety>
-            <Variety>600655.SH</Variety>
-            <Variety>600657.SH</Variety>
-            <Variety>600660.SH</Variety>
-            <Variety>600663.SH</Variety>
-            <Variety>600664.SH</Variety>
-            <Variety>600674.SH</Variety>
-            <Variety>600675.SH</Variety>
-            <Variety>600688.SH</Variety>
-            <Variety>600690.SH</Variety>
-            <Variety>600694.SH</Variety>
-            <Variety>600717.SH</Variety>
-            <Variety>600718.SH</Variety>
-            <Variety>600737.SH</Variety>
-            <Variety>600739.SH</Variety>
-            <Variety>600741.SH</Variety>
-            <Variety>600748.SH</Variety>
-            <Variety>600779.SH</Variety>
-            <Variety>600795.SH</Variety>
-            <Variety>600804.SH</Variety>
-            <Variety>600808.SH</Variety>
-            <Variety>600809.SH</Variety>
-            <Variety>600811.SH</Variety>
-            <Variety>600812.SH</Variety>
-            <Variety>600820.SH</Variety>
-            <Variety>600832.SH</Variety>
-            <Variety>600835.SH</Variety>
-            <Variety>600837.SH</Variety>
-            <Variety>600839.SH</Variety>
-            <Variety>600863.SH</Variety>
-            <Variety>600875.SH</Variety>
-            <Variety>600879.SH</Variety>
-            <Variety>600881.SH</Variety>
-            <Variety>600886.SH</Variety>
-            <Variety>600895.SH</Variety>
-            <Variety>600900.SH</Variety>
-            <Variety>600970.SH</Variety>
-            <Variety>600997.SH</Variety>
-            <Variety>600999.SH</Variety>
-            <Variety>601001.SH</Variety>
-            <Variety>601003.SH</Variety>
-            <Variety>601006.SH</Variety>
-            <Variety>601009.SH</Variety>
-            <Variety>601088.SH</Variety>
-            <Variety>601099.SH</Variety>
-            <Variety>601107.SH</Variety>
-            <Variety>601111.SH</Variety>
-            <Variety>601117.SH</Variety>
-            <Variety>601139.SH</Variety>
-            <Variety>601166.SH</Variety>
-            <Variety>601168.SH</Variety>
-            <Variety>601169.SH</Variety>
-            <Variety>601179.SH</Variety>
-            <Variety>601186.SH</Variety>
-            <Variety>601288.SH</Variety>
-            <Variety>601299.SH</Variety>
-            <Variety>601318.SH</Variety>
-            <Variety>601328.SH</Variety>
-            <Variety>601333.SH</Variety>
-            <Variety>601390.SH</Variety>
-            <Variety>601398.SH</Variety>
-            <Variety>601588.SH</Variety>
-            <Variety>601600.SH</Variety>
-            <Variety>601601.SH</Variety>
-            <Variety>601607.SH</Variety>
-            <Variety>601618.SH</Variety>
-            <Variety>601628.SH</Variety>
-            <Variety>601666.SH</Variety>
-            <Variety>601668.SH</Variety>
-            <Variety>601688.SH</Variety>
-            <Variety>601699.SH</Variety>
-            <Variety>601727.SH</Variety>
-            <Variety>601766.SH</Variety>
-            <Variety>601788.SH</Variety>
-            <Variety>601801.SH</Variety>
-            <Variety>601808.SH</Variety>
-            <Variety>601857.SH</Variety>
-            <Variety>601866.SH</Variety>
-            <Variety>601872.SH</Variety>
-            <Variety>601877.SH</Variety>
-            <Variety>601888.SH</Variety>
-            <Variety>601898.SH</Variety>
-            <Variety>601899.SH</Variety>
-            <Variety>601918.SH</Variety>
-            <Variety>601919.SH</Variety>
-            <Variety>601939.SH</Variety>
-            <Variety>601958.SH</Variety>
-            <Variety>601988.SH</Variety>
-            <Variety>601989.SH</Variety>
-            <Variety>601991.SH</Variety>
-            <Variety>601998.SH</Variety>
-          </KeyDate>
-          <KeyDate StartDate="20140101">
-            <Variety>000001.SZ</Variety>
-            <Variety>000002.SZ</Variety>
-            <Variety>000009.SZ</Variety>
-            <Variety>000024.SZ</Variety>
-            <Variety>000027.SZ</Variety>
-            <Variety>000039.SZ</Variety>
-            <Variety>000060.SZ</Variety>
-            <Variety>000061.SZ</Variety>
-            <Variety>000063.SZ</Variety>
-            <Variety>000069.SZ</Variety>
-            <Variety>000100.SZ</Variety>
-            <Variety>000156.SZ</Variety>
-            <Variety>000157.SZ</Variety>
-            <Variety>000166.SZ</Variety>
-            <Variety>000333.SZ</Variety>
-            <Variety>000338.SZ</Variety>
-            <Variety>000400.SZ</Variety>
-            <Variety>000401.SZ</Variety>
-            <Variety>000402.SZ</Variety>
-            <Variety>000413.SZ</Variety>
-            <Variety>000423.SZ</Variety>
-            <Variety>000425.SZ</Variety>
-            <Variety>000503.SZ</Variety>
-            <Variety>000536.SZ</Variety>
-            <Variety>000538.SZ</Variety>
-            <Variety>000559.SZ</Variety>
-            <Variety>000568.SZ</Variety>
-            <Variety>000581.SZ</Variety>
-            <Variety>000598.SZ</Variety>
-            <Variety>000623.SZ</Variety>
-            <Variety>000625.SZ</Variety>
-            <Variety>000629.SZ</Variety>
-            <Variety>000630.SZ</Variety>
-            <Variety>000651.SZ</Variety>
-            <Variety>000686.SZ</Variety>
-            <Variety>000709.SZ</Variety>
-            <Variety>000725.SZ</Variety>
-            <Variety>000728.SZ</Variety>
-            <Variety>000729.SZ</Variety>
-            <Variety>000750.SZ</Variety>
-            <Variety>000768.SZ</Variety>
-            <Variety>000776.SZ</Variety>
-            <Variety>000778.SZ</Variety>
-            <Variety>000783.SZ</Variety>
-            <Variety>000792.SZ</Variety>
-            <Variety>000793.SZ</Variety>
-            <Variety>000800.SZ</Variety>
-            <Variety>000825.SZ</Variety>
-            <Variety>000826.SZ</Variety>
-            <Variety>000831.SZ</Variety>
-            <Variety>000839.SZ</Variety>
-            <Variety>000858.SZ</Variety>
-            <Variety>000869.SZ</Variety>
-            <Variety>000876.SZ</Variety>
-            <Variety>000878.SZ</Variety>
-            <Variety>000883.SZ</Variety>
-            <Variety>000895.SZ</Variety>
-            <Variety>000898.SZ</Variety>
-            <Variety>000917.SZ</Variety>
-            <Variety>000937.SZ</Variety>
-            <Variety>000960.SZ</Variety>
-            <Variety>000963.SZ</Variety>
-            <Variety>000970.SZ</Variety>
-            <Variety>000983.SZ</Variety>
-            <Variety>000999.SZ</Variety>
-            <Variety>002001.SZ</Variety>
-            <Variety>002007.SZ</Variety>
-            <Variety>002008.SZ</Variety>
-            <Variety>002024.SZ</Variety>
-            <Variety>002038.SZ</Variety>
-            <Variety>002051.SZ</Variety>
-            <Variety>002065.SZ</Variety>
-            <Variety>002081.SZ</Variety>
-            <Variety>002129.SZ</Variety>
-            <Variety>002142.SZ</Variety>
-            <Variety>002146.SZ</Variety>
-            <Variety>002153.SZ</Variety>
-            <Variety>002202.SZ</Variety>
-            <Variety>002230.SZ</Variety>
-            <Variety>002236.SZ</Variety>
-            <Variety>002241.SZ</Variety>
-            <Variety>002252.SZ</Variety>
-            <Variety>002292.SZ</Variety>
-            <Variety>002294.SZ</Variety>
-            <Variety>002304.SZ</Variety>
-            <Variety>002310.SZ</Variety>
-            <Variety>002344.SZ</Variety>
-            <Variety>002353.SZ</Variety>
-            <Variety>002375.SZ</Variety>
-            <Variety>002385.SZ</Variety>
-            <Variety>002399.SZ</Variety>
-            <Variety>002400.SZ</Variety>
-            <Variety>002410.SZ</Variety>
-            <Variety>002415.SZ</Variety>
-            <Variety>002416.SZ</Variety>
-            <Variety>002422.SZ</Variety>
-            <Variety>002429.SZ</Variety>
-            <Variety>002450.SZ</Variety>
-            <Variety>002456.SZ</Variety>
-            <Variety>002465.SZ</Variety>
-            <Variety>002470.SZ</Variety>
-            <Variety>002475.SZ</Variety>
-            <Variety>002500.SZ</Variety>
-            <Variety>002570.SZ</Variety>
-            <Variety>002594.SZ</Variety>
-            <Variety>002603.SZ</Variety>
-            <Variety>002653.SZ</Variety>
-            <Variety>002673.SZ</Variety>
-            <Variety>300015.SZ</Variety>
-            <Variety>300017.SZ</Variety>
-            <Variety>300024.SZ</Variety>
-            <Variety>300027.SZ</Variety>
-            <Variety>300058.SZ</Variety>
-            <Variety>300070.SZ</Variety>
-            <Variety>300124.SZ</Variety>
-            <Variety>300133.SZ</Variety>
-            <Variety>300146.SZ</Variety>
-            <Variety>300251.SZ</Variety>
-            <Variety>600000.SH</Variety>
-            <Variety>600008.SH</Variety>
-            <Variety>600009.SH</Variety>
-            <Variety>600010.SH</Variety>
-            <Variety>600011.SH</Variety>
-            <Variety>600015.SH</Variety>
-            <Variety>600016.SH</Variety>
-            <Variety>600018.SH</Variety>
-            <Variety>600019.SH</Variety>
-            <Variety>600023.SH</Variety>
-            <Variety>600027.SH</Variety>
-            <Variety>600028.SH</Variety>
-            <Variety>600029.SH</Variety>
-            <Variety>600030.SH</Variety>
-            <Variety>600031.SH</Variety>
-            <Variety>600036.SH</Variety>
-            <Variety>600038.SH</Variety>
-            <Variety>600048.SH</Variety>
-            <Variety>600050.SH</Variety>
-            <Variety>600058.SH</Variety>
-            <Variety>600060.SH</Variety>
-            <Variety>600066.SH</Variety>
-            <Variety>600068.SH</Variety>
-            <Variety>600079.SH</Variety>
-            <Variety>600085.SH</Variety>
-            <Variety>600089.SH</Variety>
-            <Variety>600100.SH</Variety>
-            <Variety>600104.SH</Variety>
-            <Variety>600108.SH</Variety>
-            <Variety>600109.SH</Variety>
-            <Variety>600111.SH</Variety>
-            <Variety>600115.SH</Variety>
-            <Variety>600118.SH</Variety>
-            <Variety>600143.SH</Variety>
-            <Variety>600150.SH</Variety>
-            <Variety>600153.SH</Variety>
-            <Variety>600157.SH</Variety>
-            <Variety>600166.SH</Variety>
-            <Variety>600170.SH</Variety>
-            <Variety>600177.SH</Variety>
-            <Variety>600188.SH</Variety>
-            <Variety>600196.SH</Variety>
-            <Variety>600208.SH</Variety>
-            <Variety>600221.SH</Variety>
-            <Variety>600252.SH</Variety>
-            <Variety>600256.SH</Variety>
-            <Variety>600267.SH</Variety>
-            <Variety>600271.SH</Variety>
-            <Variety>600276.SH</Variety>
-            <Variety>600277.SH</Variety>
-            <Variety>600309.SH</Variety>
-            <Variety>600315.SH</Variety>
-            <Variety>600316.SH</Variety>
-            <Variety>600332.SH</Variety>
-            <Variety>600340.SH</Variety>
-            <Variety>600348.SH</Variety>
-            <Variety>600352.SH</Variety>
-            <Variety>600362.SH</Variety>
-            <Variety>600369.SH</Variety>
-            <Variety>600372.SH</Variety>
-            <Variety>600373.SH</Variety>
-            <Variety>600383.SH</Variety>
-            <Variety>600395.SH</Variety>
-            <Variety>600398.SH</Variety>
-            <Variety>600406.SH</Variety>
-            <Variety>600415.SH</Variety>
-            <Variety>600436.SH</Variety>
-            <Variety>600485.SH</Variety>
-            <Variety>600489.SH</Variety>
-            <Variety>600497.SH</Variety>
-            <Variety>600498.SH</Variety>
-            <Variety>600516.SH</Variety>
-            <Variety>600518.SH</Variety>
-            <Variety>600519.SH</Variety>
-            <Variety>600535.SH</Variety>
-            <Variety>600547.SH</Variety>
-            <Variety>600549.SH</Variety>
-            <Variety>600570.SH</Variety>
-            <Variety>600578.SH</Variety>
-            <Variety>600583.SH</Variety>
-            <Variety>600585.SH</Variety>
-            <Variety>600588.SH</Variety>
-            <Variety>600597.SH</Variety>
-            <Variety>600600.SH</Variety>
-            <Variety>600633.SH</Variety>
-            <Variety>600637.SH</Variety>
-            <Variety>600642.SH</Variety>
-            <Variety>600648.SH</Variety>
-            <Variety>600649.SH</Variety>
-            <Variety>600655.SH</Variety>
-            <Variety>600660.SH</Variety>
-            <Variety>600663.SH</Variety>
-            <Variety>600664.SH</Variety>
-            <Variety>600674.SH</Variety>
-            <Variety>600688.SH</Variety>
-            <Variety>600690.SH</Variety>
-            <Variety>600703.SH</Variety>
-            <Variety>600705.SH</Variety>
-            <Variety>600718.SH</Variety>
-            <Variety>600739.SH</Variety>
-            <Variety>600741.SH</Variety>
-            <Variety>600783.SH</Variety>
-            <Variety>600795.SH</Variety>
-            <Variety>600804.SH</Variety>
-            <Variety>600809.SH</Variety>
-            <Variety>600827.SH</Variety>
-            <Variety>600832.SH</Variety>
-            <Variety>600837.SH</Variety>
-            <Variety>600839.SH</Variety>
-            <Variety>600863.SH</Variety>
-            <Variety>600867.SH</Variety>
-            <Variety>600873.SH</Variety>
-            <Variety>600875.SH</Variety>
-            <Variety>600880.SH</Variety>
-            <Variety>600886.SH</Variety>
-            <Variety>600887.SH</Variety>
-            <Variety>600893.SH</Variety>
-            <Variety>600900.SH</Variety>
-            <Variety>600998.SH</Variety>
-            <Variety>600999.SH</Variety>
-            <Variety>601006.SH</Variety>
-            <Variety>601009.SH</Variety>
-            <Variety>601018.SH</Variety>
-            <Variety>601088.SH</Variety>
-            <Variety>601098.SH</Variety>
-            <Variety>601111.SH</Variety>
-            <Variety>601117.SH</Variety>
-            <Variety>601118.SH</Variety>
-            <Variety>601158.SH</Variety>
-            <Variety>601166.SH</Variety>
-            <Variety>601168.SH</Variety>
-            <Variety>601169.SH</Variety>
-            <Variety>601179.SH</Variety>
-            <Variety>601186.SH</Variety>
-            <Variety>601216.SH</Variety>
-            <Variety>601225.SH</Variety>
-            <Variety>601231.SH</Variety>
-            <Variety>601258.SH</Variety>
-            <Variety>601288.SH</Variety>
-            <Variety>601299.SH</Variety>
-            <Variety>601318.SH</Variety>
-            <Variety>601328.SH</Variety>
-            <Variety>601333.SH</Variety>
-            <Variety>601336.SH</Variety>
-            <Variety>601377.SH</Variety>
-            <Variety>601390.SH</Variety>
-            <Variety>601398.SH</Variety>
-            <Variety>601555.SH</Variety>
-            <Variety>601600.SH</Variety>
-            <Variety>601601.SH</Variety>
-            <Variety>601607.SH</Variety>
-            <Variety>601618.SH</Variety>
-            <Variety>601628.SH</Variety>
-            <Variety>601633.SH</Variety>
-            <Variety>601668.SH</Variety>
-            <Variety>601669.SH</Variety>
-            <Variety>601688.SH</Variety>
-            <Variety>601699.SH</Variety>
-            <Variety>601727.SH</Variety>
-            <Variety>601766.SH</Variety>
-            <Variety>601800.SH</Variety>
-            <Variety>601808.SH</Variety>
-            <Variety>601818.SH</Variety>
-            <Variety>601857.SH</Variety>
-            <Variety>601866.SH</Variety>
-            <Variety>601888.SH</Variety>
-            <Variety>601898.SH</Variety>
-            <Variety>601899.SH</Variety>
-            <Variety>601901.SH</Variety>
-            <Variety>601928.SH</Variety>
-            <Variety>601929.SH</Variety>
-            <Variety>601933.SH</Variety>
-            <Variety>601939.SH</Variety>
-            <Variety>601958.SH</Variety>
-            <Variety>601988.SH</Variety>
-            <Variety>601989.SH</Variety>
-            <Variety>601992.SH</Variety>
-            <Variety>601998.SH</Variety>
-            <Variety>603000.SH</Variety>
-            <Variety>603288.SH</Variety>
-            <Variety>603699.SH</Variety>
-            <Variety>603993.SH</Variety>
-          </KeyDate>
-        </HS300>
-      </Constituents>
       <Varieties>
-        <Stocks_510050 Category="Stocks" Description="华夏上证50ETF" CreateDate="2004-12-30" 上市日期="2005-02-03" ContractMultiplier="100" TickSize="0.0001" ContractMonth="eM2S2" Margin="0.12" Commission="0.000015" CommissionCategory="Ratio" CommissionFrequency="e2">
+        <Stocks_510050>
           <Options_10000001 Category="Options" Description="50ETF购2015年3月2.20" DeliveryYearMonth="1503" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000002 Category="Options" Description="50ETF购2015年3月2.25" DeliveryYearMonth="1503" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000003 Category="Options" Description="50ETF购2015年3月2.30" DeliveryYearMonth="1503" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
@@ -2775,22 +2167,50 @@
           <Options_10000612 Category="Options" Description="50ETF沽2016年5月2.00" DeliveryYearMonth="1605" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-03-29" LastTradingDate="2016-05-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000613 Category="Options" Description="50ETF购2016年5月2.30" DeliveryYearMonth="1605" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-06" LastTradingDate="2016-05-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000614 Category="Options" Description="50ETF沽2016年5月2.30" DeliveryYearMonth="1605" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-06" LastTradingDate="2016-05-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000615 Category="Options" Description="50ETF购12月2.05" DeliveryYearMonth="1612" StrikePrice="2.05" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000616 Category="Options" Description="50ETF购12月2.10" DeliveryYearMonth="1612" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000617 Category="Options" Description="50ETF购12月2.15" DeliveryYearMonth="1612" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000618 Category="Options" Description="50ETF购12月2.20" DeliveryYearMonth="1612" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000619 Category="Options" Description="50ETF购12月2.25" DeliveryYearMonth="1612" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000620 Category="Options" Description="50ETF沽12月2.05" DeliveryYearMonth="1612" StrikePrice="2.05" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000621 Category="Options" Description="50ETF沽12月2.10" DeliveryYearMonth="1612" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000622 Category="Options" Description="50ETF沽12月2.15" DeliveryYearMonth="1612" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000623 Category="Options" Description="50ETF沽12月2.20" DeliveryYearMonth="1612" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000624 Category="Options" Description="50ETF沽12月2.25" DeliveryYearMonth="1612" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000625 Category="Options" Description="50ETF购12月2.00" DeliveryYearMonth="1612" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-09" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000626 Category="Options" Description="50ETF沽12月2.00" DeliveryYearMonth="1612" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-05-09" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000615 Category="Options" Description="50ETF购12月2.05" DeliveryYearMonth="1612" StrikePrice="2.05" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.006A" StrikePrice="2.006" ContractMultiplier="10220" />
+          </Options_10000615>
+          <Options_10000616 Category="Options" Description="50ETF购12月2.10" DeliveryYearMonth="1612" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.055A" StrikePrice="2.055" ContractMultiplier="10220" />
+          </Options_10000616>
+          <Options_10000617 Category="Options" Description="50ETF购12月2.15" DeliveryYearMonth="1612" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.104A" StrikePrice="2.104" ContractMultiplier="10220" />
+          </Options_10000617>
+          <Options_10000618 Category="Options" Description="50ETF购12月2.20" DeliveryYearMonth="1612" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000618>
+          <Options_10000619 Category="Options" Description="50ETF购12月2.25" DeliveryYearMonth="1612" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000619>
+          <Options_10000620 Category="Options" Description="50ETF沽12月2.05" DeliveryYearMonth="1612" StrikePrice="2.05" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.006A" StrikePrice="2.006" ContractMultiplier="10220" />
+          </Options_10000620>
+          <Options_10000621 Category="Options" Description="50ETF沽12月2.10" DeliveryYearMonth="1612" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.055A" StrikePrice="2.055" ContractMultiplier="10220" />
+          </Options_10000621>
+          <Options_10000622 Category="Options" Description="50ETF沽12月2.15" DeliveryYearMonth="1612" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.104A" StrikePrice="2.104" ContractMultiplier="10220" />
+          </Options_10000622>
+          <Options_10000623 Category="Options" Description="50ETF沽12月2.20" DeliveryYearMonth="1612" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000623>
+          <Options_10000624 Category="Options" Description="50ETF沽12月2.25" DeliveryYearMonth="1612" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-04-28" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000624>
+          <Options_10000625 Category="Options" Description="50ETF购12月2.00" DeliveryYearMonth="1612" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-09" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月1.957A" StrikePrice="1.957" ContractMultiplier="10220" />
+          </Options_10000625>
+          <Options_10000626 Category="Options" Description="50ETF沽12月2.00" DeliveryYearMonth="1612" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-05-09" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月1.957A" StrikePrice="1.957" ContractMultiplier="10220" />
+          </Options_10000626>
           <Options_10000627 Category="Options" Description="50ETF购2016年5月1.95" DeliveryYearMonth="1605" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-10" LastTradingDate="2016-05-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000628 Category="Options" Description="50ETF沽2016年5月1.95" DeliveryYearMonth="1605" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-05-10" LastTradingDate="2016-05-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000629 Category="Options" Description="50ETF购12月1.95" DeliveryYearMonth="1612" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-10" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000630 Category="Options" Description="50ETF沽12月1.95" DeliveryYearMonth="1612" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-05-10" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000629 Category="Options" Description="50ETF购12月1.95" DeliveryYearMonth="1612" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-10" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月1.908A" StrikePrice="1.908" ContractMultiplier="10220" />
+          </Options_10000629>
+          <Options_10000630 Category="Options" Description="50ETF沽12月1.95" DeliveryYearMonth="1612" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-05-10" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月1.908A" StrikePrice="1.908" ContractMultiplier="10220" />
+          </Options_10000630>
           <Options_10000631 Category="Options" Description="50ETF购2016年7月1.95" DeliveryYearMonth="1607" StrikePrice="1.95" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-26" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000632 Category="Options" Description="50ETF购2016年7月2.00" DeliveryYearMonth="1607" StrikePrice="2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-26" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000633 Category="Options" Description="50ETF购2016年7月2.05" DeliveryYearMonth="1607" StrikePrice="2.05" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-05-26" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
@@ -2821,28 +2241,60 @@
           <Options_10000658 Category="Options" Description="50ETF沽2016年7月2.30" DeliveryYearMonth="1607" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-05" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000659 Category="Options" Description="50ETF购2016年8月2.30" DeliveryYearMonth="1608" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-05" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000660 Category="Options" Description="50ETF沽2016年8月2.30" DeliveryYearMonth="1608" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-05" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000661 Category="Options" Description="50ETF购12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-05" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000662 Category="Options" Description="50ETF沽12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-05" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000661 Category="Options" Description="50ETF购12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-05" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000661>
+          <Options_10000662 Category="Options" Description="50ETF沽12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-05" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000662>
           <Options_10000663 Category="Options" Description="50ETF购2016年7月2.35" DeliveryYearMonth="1607" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-13" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000664 Category="Options" Description="50ETF沽2016年7月2.35" DeliveryYearMonth="1607" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-13" LastTradingDate="2016-07-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000665 Category="Options" Description="50ETF购2016年8月2.35" DeliveryYearMonth="1608" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-13" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000666 Category="Options" Description="50ETF沽2016年8月2.35" DeliveryYearMonth="1608" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-13" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000667 Category="Options" Description="50ETF购2016年9月2.35" DeliveryYearMonth="1609" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-13" LastTradingDate="2016-09-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000668 Category="Options" Description="50ETF沽2016年9月2.35" DeliveryYearMonth="1609" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-13" LastTradingDate="2016-09-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000669 Category="Options" Description="50ETF购12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-13" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000670 Category="Options" Description="50ETF沽12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-13" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000671 Category="Options" Description="50ETF购3月2.10" DeliveryYearMonth="1703" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000672 Category="Options" Description="50ETF购3月2.15" DeliveryYearMonth="1703" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000673 Category="Options" Description="50ETF购3月2.20" DeliveryYearMonth="1703" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000674 Category="Options" Description="50ETF购3月2.25" DeliveryYearMonth="1703" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000675 Category="Options" Description="50ETF购3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000676 Category="Options" Description="50ETF沽3月2.10" DeliveryYearMonth="1703" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000677 Category="Options" Description="50ETF沽3月2.15" DeliveryYearMonth="1703" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000678 Category="Options" Description="50ETF沽3月2.20" DeliveryYearMonth="1703" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000679 Category="Options" Description="50ETF沽3月2.25" DeliveryYearMonth="1703" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000680 Category="Options" Description="50ETF沽3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000681 Category="Options" Description="50ETF购3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-15" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000682 Category="Options" Description="50ETF沽3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-15" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000669 Category="Options" Description="50ETF购12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-13" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000669>
+          <Options_10000670 Category="Options" Description="50ETF沽12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-13" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000670>
+          <Options_10000671 Category="Options" Description="50ETF购3月2.10" DeliveryYearMonth="1703" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.055A" StrikePrice="2.055" ContractMultiplier="10220" />
+          </Options_10000671>
+          <Options_10000672 Category="Options" Description="50ETF购3月2.15" DeliveryYearMonth="1703" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.104A" StrikePrice="2.104" ContractMultiplier="10220" />
+          </Options_10000672>
+          <Options_10000673 Category="Options" Description="50ETF购3月2.20" DeliveryYearMonth="1703" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000673>
+          <Options_10000674 Category="Options" Description="50ETF购3月2.25" DeliveryYearMonth="1703" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000674>
+          <Options_10000675 Category="Options" Description="50ETF购3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000675>
+          <Options_10000676 Category="Options" Description="50ETF沽3月2.10" DeliveryYearMonth="1703" StrikePrice="2.1" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.055A" StrikePrice="2.055" ContractMultiplier="10220" />
+          </Options_10000676>
+          <Options_10000677 Category="Options" Description="50ETF沽3月2.15" DeliveryYearMonth="1703" StrikePrice="2.15" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.104A" StrikePrice="2.104" ContractMultiplier="10220" />
+          </Options_10000677>
+          <Options_10000678 Category="Options" Description="50ETF沽3月2.20" DeliveryYearMonth="1703" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000678>
+          <Options_10000679 Category="Options" Description="50ETF沽3月2.25" DeliveryYearMonth="1703" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000679>
+          <Options_10000680 Category="Options" Description="50ETF沽3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-07-28" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000680>
+          <Options_10000681 Category="Options" Description="50ETF购3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-15" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000681>
+          <Options_10000682 Category="Options" Description="50ETF沽3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-15" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000682>
           <Options_10000683 Category="Options" Description="50ETF购2016年8月2.40" DeliveryYearMonth="1608" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000684 Category="Options" Description="50ETF购2016年8月2.45" DeliveryYearMonth="1608" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000685 Category="Options" Description="50ETF沽2016年8月2.40" DeliveryYearMonth="1608" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-08-24" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
@@ -2851,14 +2303,30 @@
           <Options_10000688 Category="Options" Description="50ETF购2016年9月2.45" DeliveryYearMonth="1609" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-09-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000689 Category="Options" Description="50ETF沽2016年9月2.40" DeliveryYearMonth="1609" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-09-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000690 Category="Options" Description="50ETF沽2016年9月2.45" DeliveryYearMonth="1609" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-09-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000691 Category="Options" Description="50ETF购12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000692 Category="Options" Description="50ETF购12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000693 Category="Options" Description="50ETF沽12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000694 Category="Options" Description="50ETF沽12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000695 Category="Options" Description="50ETF购3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000696 Category="Options" Description="50ETF购3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000697 Category="Options" Description="50ETF沽3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000698 Category="Options" Description="50ETF沽3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000691 Category="Options" Description="50ETF购12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000691>
+          <Options_10000692 Category="Options" Description="50ETF购12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000692>
+          <Options_10000693 Category="Options" Description="50ETF沽12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000693>
+          <Options_10000694 Category="Options" Description="50ETF沽12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000694>
+          <Options_10000695 Category="Options" Description="50ETF购3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000695>
+          <Options_10000696 Category="Options" Description="50ETF购3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000696>
+          <Options_10000697 Category="Options" Description="50ETF沽3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000697>
+          <Options_10000698 Category="Options" Description="50ETF沽3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-08-16" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000698>
           <Options_10000699 Category="Options" Description="50ETF购2016年10月2.20" DeliveryYearMonth="1610" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-25" LastTradingDate="2016-10-26" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000700 Category="Options" Description="50ETF购2016年10月2.25" DeliveryYearMonth="1610" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-25" LastTradingDate="2016-10-26" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000701 Category="Options" Description="50ETF购2016年10月2.30" DeliveryYearMonth="1610" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-08-25" LastTradingDate="2016-10-26" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
@@ -2887,38 +2355,166 @@
           <Options_10000724 Category="Options" Description="50ETF沽2016年11月2.35" DeliveryYearMonth="1611" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-09-30" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000725 Category="Options" Description="50ETF购2016年11月2.40" DeliveryYearMonth="1611" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-19" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000726 Category="Options" Description="50ETF沽2016年11月2.40" DeliveryYearMonth="1611" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-19" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000727 Category="Options" Description="50ETF购6月2.20" DeliveryYearMonth="1706" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000728 Category="Options" Description="50ETF购6月2.25" DeliveryYearMonth="1706" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000729 Category="Options" Description="50ETF购6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000730 Category="Options" Description="50ETF购6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000731 Category="Options" Description="50ETF购6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000732 Category="Options" Description="50ETF沽6月2.20" DeliveryYearMonth="1706" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000733 Category="Options" Description="50ETF沽6月2.25" DeliveryYearMonth="1706" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000734 Category="Options" Description="50ETF沽6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000735 Category="Options" Description="50ETF沽6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000736 Category="Options" Description="50ETF沽6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000727 Category="Options" Description="50ETF购6月2.20" DeliveryYearMonth="1706" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000727>
+          <Options_10000728 Category="Options" Description="50ETF购6月2.25" DeliveryYearMonth="1706" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000728>
+          <Options_10000729 Category="Options" Description="50ETF购6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000729>
+          <Options_10000730 Category="Options" Description="50ETF购6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000730>
+          <Options_10000731 Category="Options" Description="50ETF购6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000731>
+          <Options_10000732 Category="Options" Description="50ETF沽6月2.20" DeliveryYearMonth="1706" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.153A" StrikePrice="2.153" ContractMultiplier="10220" />
+          </Options_10000732>
+          <Options_10000733 Category="Options" Description="50ETF沽6月2.25" DeliveryYearMonth="1706" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.202A" StrikePrice="2.202" ContractMultiplier="10220" />
+          </Options_10000733>
+          <Options_10000734 Category="Options" Description="50ETF沽6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000734>
+          <Options_10000735 Category="Options" Description="50ETF沽6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000735>
+          <Options_10000736 Category="Options" Description="50ETF沽6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-10-27" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000736>
           <Options_10000737 Category="Options" Description="50ETF购2016年11月2.45" DeliveryYearMonth="1611" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-04" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000738 Category="Options" Description="50ETF沽2016年11月2.45" DeliveryYearMonth="1611" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-04" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000739 Category="Options" Description="50ETF购6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-04" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000740 Category="Options" Description="50ETF沽6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-04" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000739 Category="Options" Description="50ETF购6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-04" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000739>
+          <Options_10000740 Category="Options" Description="50ETF沽6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-04" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000740>
           <Options_10000741 Category="Options" Description="50ETF购2016年11月2.50" DeliveryYearMonth="1611" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000742 Category="Options" Description="50ETF沽2016年11月2.50" DeliveryYearMonth="1611" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2016-11-23" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000743 Category="Options" Description="50ETF购12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000744 Category="Options" Description="50ETF沽12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000745 Category="Options" Description="50ETF购3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000746 Category="Options" Description="50ETF沽3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000747 Category="Options" Description="50ETF购6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000748 Category="Options" Description="50ETF沽6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000749 Category="Options" Description="50ETF购1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000750 Category="Options" Description="50ETF购1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000751 Category="Options" Description="50ETF购1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000752 Category="Options" Description="50ETF购1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000753 Category="Options" Description="50ETF购1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000754 Category="Options" Description="50ETF沽1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000755 Category="Options" Description="50ETF沽1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000756 Category="Options" Description="50ETF沽1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000757 Category="Options" Description="50ETF沽1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
-          <Options_10000758 Category="Options" Description="50ETF沽1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000743 Category="Options" Description="50ETF购12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000743>
+          <Options_10000744 Category="Options" Description="50ETF沽12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000744>
+          <Options_10000745 Category="Options" Description="50ETF购3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000745>
+          <Options_10000746 Category="Options" Description="50ETF沽3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000746>
+          <Options_10000747 Category="Options" Description="50ETF购6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-22" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000747>
+          <Options_10000748 Category="Options" Description="50ETF沽6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-22" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000748>
+          <Options_10000749 Category="Options" Description="50ETF购1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000749>
+          <Options_10000750 Category="Options" Description="50ETF购1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000750>
+          <Options_10000751 Category="Options" Description="50ETF购1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000751>
+          <Options_10000752 Category="Options" Description="50ETF购1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000752>
+          <Options_10000753 Category="Options" Description="50ETF购1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000753>
+          <Options_10000754 Category="Options" Description="50ETF沽1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2.250A" StrikePrice="2.25" ContractMultiplier="10220" />
+          </Options_10000754>
+          <Options_10000755 Category="Options" Description="50ETF沽1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2.299A" StrikePrice="2.299" ContractMultiplier="10220" />
+          </Options_10000755>
+          <Options_10000756 Category="Options" Description="50ETF沽1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2.348A" StrikePrice="2.348" ContractMultiplier="10220" />
+          </Options_10000756>
+          <Options_10000757 Category="Options" Description="50ETF沽1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2.397A" StrikePrice="2.397" ContractMultiplier="10220" />
+          </Options_10000757>
+          <Options_10000758 Category="Options" Description="50ETF沽1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-24" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2.446A" StrikePrice="2.446" ContractMultiplier="10220" />
+          </Options_10000758>
+          <Options_10000759 Category="Options" Description="50ETF购12月2.55" DeliveryYearMonth="1612" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-25" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购12月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000759>
+          <Options_10000760 Category="Options" Description="50ETF沽12月2.55" DeliveryYearMonth="1612" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-25" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽12月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000760>
+          <Options_10000761 Category="Options" Description="50ETF购1月2.55" DeliveryYearMonth="1701" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-25" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购1月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000761>
+          <Options_10000762 Category="Options" Description="50ETF沽1月2.55" DeliveryYearMonth="1701" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-25" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽1月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000762>
+          <Options_10000763 Category="Options" Description="50ETF购3月2.55" DeliveryYearMonth="1703" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-25" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购3月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000763>
+          <Options_10000764 Category="Options" Description="50ETF沽3月2.55" DeliveryYearMonth="1703" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-25" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽3月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000764>
+          <Options_10000765 Category="Options" Description="50ETF购6月2.55" DeliveryYearMonth="1706" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-25" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF购6月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000765>
+          <Options_10000766 Category="Options" Description="50ETF沽6月2.55" DeliveryYearMonth="1706" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-25" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1">
+            <Change Date="20161129" Description="50ETF沽6月2495A" StrikePrice="2.495" ContractMultiplier="10220" />
+          </Options_10000766>
+          <Options_10000767 Category="Options" Description="50ETF购12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000768 Category="Options" Description="50ETF购12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000769 Category="Options" Description="50ETF购12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000770 Category="Options" Description="50ETF购12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000771 Category="Options" Description="50ETF购12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000772 Category="Options" Description="50ETF沽12月2.30" DeliveryYearMonth="1612" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000773 Category="Options" Description="50ETF沽12月2.35" DeliveryYearMonth="1612" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000774 Category="Options" Description="50ETF沽12月2.40" DeliveryYearMonth="1612" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000775 Category="Options" Description="50ETF沽12月2.45" DeliveryYearMonth="1612" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000776 Category="Options" Description="50ETF沽12月2.50" DeliveryYearMonth="1612" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000777 Category="Options" Description="50ETF购1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000778 Category="Options" Description="50ETF购1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000779 Category="Options" Description="50ETF购1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000780 Category="Options" Description="50ETF购1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000781 Category="Options" Description="50ETF购1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000782 Category="Options" Description="50ETF沽1月2.30" DeliveryYearMonth="1701" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000783 Category="Options" Description="50ETF沽1月2.35" DeliveryYearMonth="1701" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000784 Category="Options" Description="50ETF沽1月2.40" DeliveryYearMonth="1701" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000785 Category="Options" Description="50ETF沽1月2.45" DeliveryYearMonth="1701" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000786 Category="Options" Description="50ETF沽1月2.50" DeliveryYearMonth="1701" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000787 Category="Options" Description="50ETF购3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000788 Category="Options" Description="50ETF购3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000789 Category="Options" Description="50ETF购3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000790 Category="Options" Description="50ETF购3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000791 Category="Options" Description="50ETF购3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000792 Category="Options" Description="50ETF沽3月2.30" DeliveryYearMonth="1703" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000793 Category="Options" Description="50ETF沽3月2.35" DeliveryYearMonth="1703" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000794 Category="Options" Description="50ETF沽3月2.40" DeliveryYearMonth="1703" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000795 Category="Options" Description="50ETF沽3月2.45" DeliveryYearMonth="1703" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000796 Category="Options" Description="50ETF沽3月2.50" DeliveryYearMonth="1703" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000797 Category="Options" Description="50ETF购6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000798 Category="Options" Description="50ETF购6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000799 Category="Options" Description="50ETF购6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000800 Category="Options" Description="50ETF购6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000801 Category="Options" Description="50ETF购6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000802 Category="Options" Description="50ETF沽6月2.30" DeliveryYearMonth="1706" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000803 Category="Options" Description="50ETF沽6月2.35" DeliveryYearMonth="1706" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000804 Category="Options" Description="50ETF沽6月2.40" DeliveryYearMonth="1706" StrikePrice="2.4" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000805 Category="Options" Description="50ETF沽6月2.45" DeliveryYearMonth="1706" StrikePrice="2.45" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000806 Category="Options" Description="50ETF沽6月2.50" DeliveryYearMonth="1706" StrikePrice="2.5" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-29" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000807 Category="Options" Description="50ETF购12月2.55" DeliveryYearMonth="1612" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-30" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000808 Category="Options" Description="50ETF沽12月2.55" DeliveryYearMonth="1612" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-30" LastTradingDate="2016-12-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000809 Category="Options" Description="50ETF购1月2.55" DeliveryYearMonth="1701" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-30" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000810 Category="Options" Description="50ETF沽1月2.55" DeliveryYearMonth="1701" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-30" LastTradingDate="2017-01-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000811 Category="Options" Description="50ETF购3月2.55" DeliveryYearMonth="1703" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-30" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000812 Category="Options" Description="50ETF沽3月2.55" DeliveryYearMonth="1703" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-30" LastTradingDate="2017-03-22" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000813 Category="Options" Description="50ETF购6月2.55" DeliveryYearMonth="1706" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2016-11-30" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+          <Options_10000814 Category="Options" Description="50ETF沽6月2.55" DeliveryYearMonth="1706" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsCategory="Put" CreateDate="2016-11-30" LastTradingDate="2017-06-28" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
         </Stocks_510050>
       </Varieties>
     </SSE>
