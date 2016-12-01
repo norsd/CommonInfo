@@ -1552,7 +1552,7 @@
         </KeyDate>
       </TradeTimeRanges>
       <Varieties>
-        <Stocks_510050>
+        <Stocks_510050 Category="Stocks" Description="华夏上证50ETF" CreateDate="2004-12-30" 上市日期="2005-02-03" ContractMultiplier="100" TickSize="0.0001" ContractMonth="eM2S2" Margin="0.12" Commission="0.000015" CommissionCategory="Ratio" CommissionFrequency="e2">
           <Options_10000001 Category="Options" Description="50ETF购2015年3月2.20" DeliveryYearMonth="1503" StrikePrice="2.2" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000002 Category="Options" Description="50ETF购2015年3月2.25" DeliveryYearMonth="1503" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           <Options_10000003 Category="Options" Description="50ETF购2015年3月2.30" DeliveryYearMonth="1503" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsCategory="Call" CreateDate="2015-02-09" LastTradingDate="2015-03-25" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
