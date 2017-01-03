@@ -1,4 +1,4 @@
-<Root Version="20161217.000002">
+<Root Version="20161217.000003">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/FuturesInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -7,16 +7,20 @@
           <Category eKeyDay="Common">
             <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
             <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
             <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
             <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
           </Category>
         </KeyDate>
         <KeyDate StartDate="20100628">
           <Category eKeyDay="Common">
-            <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>f
-            <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange><TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange><TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange><TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange></Category>
+            <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
+            <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
+          </Category>
         </KeyDate>
       </TradeTimeRanges>
       <Varieties>
@@ -35,8 +39,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -46,16 +50,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -81,8 +85,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -91,8 +95,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -102,15 +106,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -148,8 +152,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -158,8 +162,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -169,15 +173,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -198,8 +202,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -209,15 +213,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -242,8 +246,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -252,8 +256,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -263,15 +267,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -296,8 +300,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -307,15 +311,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -330,15 +334,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -363,8 +367,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -374,15 +378,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -407,8 +411,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -417,8 +421,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -428,15 +432,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -467,8 +471,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -477,8 +481,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -488,15 +492,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-230000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -510,15 +514,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -557,8 +561,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">133000-141000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">142000-150001</TimeRange>
               </Category>
@@ -567,8 +571,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -578,15 +582,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-010000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -600,8 +604,8 @@
           <Category eKeyDay="Common">
             <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
             <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
             <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
           </Category>
         </KeyDate>
@@ -617,8 +621,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -628,16 +632,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -648,16 +652,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -669,8 +673,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -680,16 +684,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -700,16 +704,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -730,8 +734,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -741,16 +745,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -761,16 +765,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -782,8 +786,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -793,16 +797,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -813,16 +817,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -856,8 +860,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -867,16 +871,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -887,16 +891,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -912,8 +916,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -923,16 +927,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -943,16 +947,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -964,8 +968,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -975,16 +979,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -995,16 +999,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1020,8 +1024,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1031,16 +1035,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-023000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1051,16 +1055,16 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <!-- (不包含双休日)节假日后的第一个交易日的前一个交易日没有连续交易 -->
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1074,8 +1078,8 @@
           <Category eKeyDay="Common">
             <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
             <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-            <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+            <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
             <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
           </Category>
         </KeyDate>
@@ -1097,8 +1101,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1108,15 +1112,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1133,8 +1137,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1144,15 +1148,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1170,8 +1174,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1181,15 +1185,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1205,8 +1209,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1216,15 +1220,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1243,8 +1247,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1254,15 +1258,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1284,8 +1288,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1295,15 +1299,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1315,8 +1319,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1326,15 +1330,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1348,8 +1352,8 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1359,15 +1363,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
@@ -1389,15 +1393,15 @@
               <Category eKeyDay="Common">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="LastTradingDay">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
               </Category>
             </KeyDate>
             <!-- 2015-06-11日开始夜盘交易,但是其交易日实际为 2015-06-12(周一) -->
@@ -1406,15 +1410,15 @@
                 <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
                 <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
               <Category eKeyDay="KeyDayAndAfterHoliday">
                 <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
                 <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">090000-101500</TimeRange>
-                <TimeRange Session="Trade" eInRange="EE">103000-113000</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
+                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
                 <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
               </Category>
             </KeyDate>
