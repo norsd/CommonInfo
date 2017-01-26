@@ -1,4 +1,4 @@
-<Root Version="20170114.184059">
+<Root Version="20170114.184060">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/FuturesInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -910,6 +910,14 @@
               <Special Contract="1708" IssueDay="20160815">
               </Special>
               <Special Contract="1709" IssueDay="20160919">
+              </Special>
+              <Special Contract="1710" IssueDay="20161024">
+              </Special>
+              <Special Contract="1711" IssueDay="20161115">
+              </Special>
+              <Special Contract="1712" IssueDay="20161215">
+              </Special>
+              <Special Contract="1801" IssueDay="20170117">
               </Special>
             </KeyDate>
           </ContractMonths>
