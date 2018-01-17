@@ -1,4 +1,4 @@
-<Root Version="20180117.000026">
+<Root Version="20180117.000027">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -1582,27 +1582,6 @@
         </KeyDate>
       </TradeTimeRanges>
       <Varieties>
-        <AP Description="苹果" CreateDate="2017-12-22" ContractMultiplier="10" TickSize="1" LastTradingDate="eTDay10" ContractMonth="{m=1,3,5,7,10,11,12;c=7}" CreateDateContracts="1805,1807,1810,1811,1812" Margin="0.05" Commission="0" CommissionCategory="Fixed" CommissionFrequency="e2">
-          <TradeTimeRanges>
-            <KeyDate StartDate="20171222">
-              <Category eKeyDay="Common">
-                <TimeRange Session="AuctionOrder|AfterHours" eInRange="EN" PreDay="1">205500-205900</TimeRange>
-                <TimeRange Session="AuctionDeal|Trade|AfterHours" eInRange="EN" PreDay="1">205900-210000</TimeRange>
-                <TimeRange Session="Trade|AfterHours" eInRange="EN" PreDay="1">210000-233000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
-              </Category>
-              <Category eKeyDay="KeyDayAndAfterHoliday">
-                <TimeRange Session="AuctionOrder" eInRange="EN">085500-085900</TimeRange>
-                <TimeRange Session="AuctionDeal|Trade" eInRange="EN">085900-090000</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">090000-101501</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">103000-113001</TimeRange>
-                <TimeRange Session="Trade" eInRange="EN">133000-150001</TimeRange>
-              </Category>
-            </KeyDate>
-          </TradeTimeRanges>
-        </AP>
         <CF Description="棉花" CreateDate="2004-06-01" ContractMultiplier="5" TickSize="5" LastTradingDate="eTDay10" ContractMonth="eMOdd" Margin="0.5" Commission="4.3" CommissionCategory="Fixed" CommissionFrequency="e2">
           <ContractMonths>
             <KeyDate StartDate="20040601" CreateDateContracts="0407" ContractMonth="eMOdd" LastTradingDate="eTDay10">
