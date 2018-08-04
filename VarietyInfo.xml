@@ -1,4 +1,4 @@
-<Root Version="20180804.000012">
+<Root Version="20180805.000013">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -4184,6 +4184,8 @@
             <_10001436 Category="Options" Description="50ETF沽3月2.35" DeliveryYearMonth="1903" StrikePrice="2.35" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2018-08-02" LastTradingDate="2019-03-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
             <_10001437 Category="Options" Description="50ETF购3月2.30" DeliveryYearMonth="1903" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2018-08-03" LastTradingDate="2019-03-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
             <_10001438 Category="Options" Description="50ETF沽3月2.30" DeliveryYearMonth="1903" StrikePrice="2.3" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2018-08-03" LastTradingDate="2019-03-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+            <_10001439 Category="Options" Description="50ETF购3月2.25" DeliveryYearMonth="1903" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2018-08-06" LastTradingDate="2019-03-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
+            <_10001440 Category="Options" Description="50ETF沽3月2.25" DeliveryYearMonth="1903" StrikePrice="2.25" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2018-08-06" LastTradingDate="2019-03-27" ContractMultiplier="10000" TickSize="0.0001" Margin="1" Commission="2.6" CommissionCategory="Fixed" CommissionFrequency="e1" />
           </Options>
         </_510050>
         <_510300 Category="Stocks" Description="华泰柏瑞沪深300ETF" CreateDate="2012-05-04" 上市日期="2012-05-28" ContractMultiplier="1" TickSize="0.001" ContractMonth="eM12" Margin="1" Commission="0.000015" CommissionCategory="Ratio" CommissionFrequency="e2">
