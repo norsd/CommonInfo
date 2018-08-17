@@ -1,4 +1,4 @@
-<Root Version="20180817.000023">
+<Root Version="20180817.090000">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -2321,9 +2321,8 @@
               交割月份第一个交易日的前一交易日结算时起，交易保证金为合约价值的2%。
               已上市合约的交易保证金仍按我所于2014年10月31日发布的《关于调整5年期国债期货交易保证金的通知》规定的标准执行。-->
         </TF>
-        <!--<TT Description ="3年期国债期货" CreateDate="2014-09-19" CreateDateContracts="1412,1503,1506" ContractMultiplier="10000" TickSize="0.002" LastTradingDate="eFriday2" ContractMonth="eS3" Margin="0.02" Commission="2" CommissionCategory="Fixed" CommissionFrequency="e2">
-        </TT>
-        -->
+        <TS Description ="2年期国债期货" CreateDate="2018-08-17" CreateDateContracts="1812,1903,1906" ContractMultiplier="20000" TickSize="0.005" LastTradingDate="eFriday2" ContractMonth="eS3" Margin="0.02" Commission="2" CommissionCategory="Fixed" CommissionFrequency="e2">
+        </TS>
         <T Description="10年期国债期货" CreateDate="2015-03-20" CreateDateContracts="1509,1512,1603" ContractMultiplier="10000" TickSize="0.005" LastTradingDate="eFriday2" ContractMonth="eS3" Margin="0.02" Commission="2" CommissionCategory="Fixed" CommissionFrequency="e2">
         </T>
         <IH Description="上证50股指期货" CreateDate="2015-04-16" CreateDateContracts="1505,1506,1509,1512" ContractMultiplier="300" TickSize="0.2" LastTradingDate="eFriday3" ContractMonth="eM2S2" Margin="0.08" Commission="0.000025" CommissionCategory="Ratio" CommissionFrequency="e2">
