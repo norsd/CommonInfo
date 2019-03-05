@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Root Version="20181201.000000" Name="China">
+<Root Version="20190305.000000" Name="China">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/Holidays.China.xml" UpdateIntervalMS = "600000" WebTimeOutMS ="10000"/>
   <Holidays>
     <year id="2003">
@@ -531,8 +531,7 @@
       <date name="春节">02/07/2019</date>
       <date name="春节">02/08/2019</date>
       <date name="春节">02/09/2019</date>
-      <date name="春节">02/10/2019</date>
-      <date name="清明节">03/05/2019</date>
+      <date name="春节">02/10/2019</date>      
       <date name="劳动节">05/01/2019</date>
       <date name="端午节">06/07/2019</date>
       <date name="中秋节">09/13/2019</date>
