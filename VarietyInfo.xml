@@ -1,4 +1,4 @@
-<Root Version="20200114.000010">
+<Root Version="20200114.234852">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -5222,6 +5222,14 @@
             <_90000086 Category="Options" Description="深300ETF沽3月4.60" DeliveryYearMonth="2003" StrikePrice="4.6" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-02" LastTradingDate="2020-03-25" ContractMultiplier="10000" TickSize="0.0001" />
             <_90000087 Category="Options" Description="深300ETF购6月4.60" DeliveryYearMonth="2006" StrikePrice="4.6" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-01-02" LastTradingDate="2020-06-24" ContractMultiplier="10000" TickSize="0.0001" />
             <_90000088 Category="Options" Description="深300ETF沽6月4.60" DeliveryYearMonth="2006" StrikePrice="4.6" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-02" LastTradingDate="2020-06-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000089 Category="Options" Description="深300ETF购1月4.70" DeliveryYearMonth="2001" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-01-14" LastTradingDate="2020-01-22" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000090 Category="Options" Description="深300ETF沽1月4.70" DeliveryYearMonth="2001" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-14" LastTradingDate="2020-01-22" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000091 Category="Options" Description="深300ETF购2月4.70" DeliveryYearMonth="2002" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-01-14" LastTradingDate="2020-02-26" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000092 Category="Options" Description="深300ETF沽2月4.70" DeliveryYearMonth="2002" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-14" LastTradingDate="2020-02-26" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000093 Category="Options" Description="深300ETF购3月4.70" DeliveryYearMonth="2003" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-01-14" LastTradingDate="2020-03-25" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000094 Category="Options" Description="深300ETF沽3月4.70" DeliveryYearMonth="2003" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-14" LastTradingDate="2020-03-25" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000095 Category="Options" Description="深300ETF购6月4.70" DeliveryYearMonth="2006" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-01-14" LastTradingDate="2020-06-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000096 Category="Options" Description="深300ETF沽6月4.70" DeliveryYearMonth="2006" StrikePrice="4.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-14" LastTradingDate="2020-06-24" ContractMultiplier="10000" TickSize="0.0001" />
           </Options>
         </_159919_Options>
       </Varieties>
