@@ -1,4 +1,4 @@
-<Root Version="20200114.234852">
+<Root Version="20200116.082352">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -2102,14 +2102,20 @@
       <TradeTimeRanges>
         <KeyDate StartDate="19900101">
           <Category eKeyDay="Common">
-            <!-- 本所接受交易参与人竞价交易申报的时间为每个交易日9:15至 9：25、9：30至11:30 、13:00至15:00 -->
-            <!-- 每个交易日9:20至9:25的开盘集合竞价阶段，本所交易主机不接受撤单申报；其他接受交易申报的时间内，未成交申报可以撤销。撤销指令经本所交易主机确认方为有效。-->
-            <!-- [9:15, 9:20) 可以撤单的集合竞价-->
+            <!--
+            本所接受交易参与人竞价交易申报的时间为每个交易日9:15至 9：25、9：30至11:30 、13:00至15:00 
+            -->
+            <!--
+            每个交易日9:20至9:25的开盘集合竞价阶段，本所交易主机不接受撤单申报；其他接受交易申报的时间内，未成交申报可以撤销。撤销指令经本所交易主机确认方为有效。
+            -->
+            <!--  [9:15, 9:20) 可以撤单的集合竞价 -->
             <TimeRange Session="AuctionOrder" eInRange="EN">091500-092000</TimeRange>
-            <!-- [9:20, 9:25) 只可以下单不能撤单的集合竞价-->
+            <!--  [9:20, 9:25) 只可以下单不能撤单的集合竞价 -->
             <TimeRange Session="AuctionDeal" eInRange="EN">092000-092500</TimeRange>
-            <!-- [9:25, 9:30) 可以下单和撤单,但是所有指令在开盘后撮合(例如下单后撤单,有可能开盘后立刻成交,之后的撤单就失效了)-->
-            <TimeRange Session="AuctionPreOpen" eInRange="EN">092500-093000</TimeRange>
+            <!--
+            [9:25, 9:30) 可以下单和撤单,但是所有指令在开盘后撮合(例如下单后撤单,有可能开盘后立刻成交,之后的撤单就失效了), 注意上交所与深交所不一样
+            -->
+            <TimeRange Session="AuctionPreOpen" eInRange="EN" InsertOrder="1">092500-093000</TimeRange>
             <TimeRange Session="Trade" eInRange="EE">093000-113000</TimeRange>
             <TimeRange Session="Trade" eInRange="EE">130000-150000</TimeRange>
             <TimeRange Session="BlockTrade" eInRange="NE">150000-153000</TimeRange>
@@ -5123,6 +5129,8 @@
           <Category eKeyDay="Common">
             <TimeRange Session="AuctionOrder" eInRange="EN">091500-092000</TimeRange>
             <TimeRange Session="AuctionDeal" eInRange="EN">092000-092500</TimeRange>
+            <!--  [9:25, 9:30) 禁止交易,如果发送指令则交易所返回错误 -->
+            <TimeRange Session="AuctionPreOpen" eInRange="EN" InsertOrder="0">092500-093000</TimeRange>
             <TimeRange Session="Trade" eInRange="EE">093000-113000</TimeRange>
             <TimeRange Session="Trade" eInRange="EE">130000-150000</TimeRange>
             <TimeRange Session="BlockTrade" eInRange="NE">150000-153000</TimeRange>
