@@ -1,4 +1,4 @@
-<Root Version="20200203.000011">
+<Root Version="20200203.000017">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -5298,6 +5298,8 @@
             <_90000112 Category="Options" Description="深300ETF沽9月4.40" DeliveryYearMonth="2009" StrikePrice="4.4" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-23" LastTradingDate="2020-09-23" ContractMultiplier="10000" TickSize="0.0001" />
             <_90000113 Category="Options" Description="深300ETF沽9月4.50" DeliveryYearMonth="2009" StrikePrice="4.5" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-23" LastTradingDate="2020-09-23" ContractMultiplier="10000" TickSize="0.0001" />
             <_90000114 Category="Options" Description="深300ETF沽9月4.60" DeliveryYearMonth="2009" StrikePrice="4.6" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-01-23" LastTradingDate="2020-09-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000115 Category="Options" Description="深300ETF购9月3.70" DeliveryYearMonth="2009" StrikePrice="3.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-02-03" LastTradingDate="2020-09-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_90000116 Category="Options" Description="深300ETF沽9月3.70" DeliveryYearMonth="2009" StrikePrice="3.7" UnderlyingId="159919.SZ" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-02-03" LastTradingDate="2020-09-23" ContractMultiplier="10000" TickSize="0.0001" />
           </Options>
         </_159919_Options>
       </Varieties>
