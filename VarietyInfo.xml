@@ -1,4 +1,4 @@
-<Root Version="20200430.000003">
+<Root Version="20200430.104240">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -5393,6 +5393,10 @@
             <_10002494 Category="Options" Description="50ETF沽12月3.00" DeliveryYearMonth="2012" StrikePrice="3" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-04-23" LastTradingDate="2020-12-23" ContractMultiplier="10000" TickSize="0.0001" />
             <_10002513 Category="Options" Description="50ETF购12月2.55" DeliveryYearMonth="2012" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-04-27" LastTradingDate="2020-12-23" ContractMultiplier="10000" TickSize="0.0001" />
             <_10002514 Category="Options" Description="50ETF沽12月2.55" DeliveryYearMonth="2012" StrikePrice="2.55" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-04-27" LastTradingDate="2020-12-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10002515 Category="Options" Description="50ETF购5月3.10" DeliveryYearMonth="2005" StrikePrice="3.1" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-04-30" LastTradingDate="2020-05-27" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10002516 Category="Options" Description="50ETF沽5月3.10" DeliveryYearMonth="2005" StrikePrice="3.1" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-04-30" LastTradingDate="2020-05-27" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10002517 Category="Options" Description="50ETF购12月3.10" DeliveryYearMonth="2012" StrikePrice="3.1" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2020-04-30" LastTradingDate="2020-12-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10002518 Category="Options" Description="50ETF沽12月3.10" DeliveryYearMonth="2012" StrikePrice="3.1" UnderlyingId="510050.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2020-04-30" LastTradingDate="2020-12-23" ContractMultiplier="10000" TickSize="0.0001" />
           </Options>
         </_510050_Options>
         <_510300_Options Category="Options" Description="华泰柏瑞沪深300ETF期权" UnderlyingId="510300.SH" CreateDate="2019-12-23" 上市日期="2019-12-23" ContractMultiplier="10000" TickSize="0.0001" OptionsStyle="European">
