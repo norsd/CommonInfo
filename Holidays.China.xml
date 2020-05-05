@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Root Version="20200101" Name="China">
+<Root Version="20200501" Name="China">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/Holidays.China.xml" UpdateIntervalMS = "600000" WebTimeOutMS ="10000"/>
   <Holidays>
     <year id="2003">
@@ -259,6 +259,7 @@
       <date name="国庆节">10/04/2011</date>
       <date name="国庆节">10/05/2011</date>
       <date name="国庆节">10/06/2011</date>
+      <date name="国庆节">10/07/2011</date>
       <date name="国庆节后工作日,调休,周六" WorkDay="True">10/08/2011</date>
       <date name="国庆节后工作日,调休,周日" WorkDay="True">10/09/2011</date>
       <date name="元旦前工作日,调休,周六" WorkDay="True">12/31/2012</date>
@@ -538,7 +539,7 @@
       <date name="劳动节">05/01/2019</date>
       <date name="劳动节">05/02/2019</date>
       <date name="劳动节">05/03/2019</date>
-      <date name="劳动节">05/04/2019</date>      
+      <date name="劳动节">05/04/2019</date>
       <date name="劳动节后第一个周日,工作日" WorkDay="True">05/05/2019</date>
       <!-- Auth:沈迪 20190322 End-->
       <date name="端午节">06/07/2019</date>
@@ -566,7 +567,7 @@
       <date name="春节">01/30/2020</date>
       <date name="春节">01/31/2020</date>
       <date name="春节">02/01/2020</date>
-      <date name="春节">02/02/2020</date>      
+      <date name="春节">02/02/2020</date>
       <date name="清明节">04/04/2020</date>
       <date name="清明节">04/05/2020</date>
       <date name="清明节">04/06/2020</date>
