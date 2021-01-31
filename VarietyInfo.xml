@@ -1,4 +1,4 @@
-<Root Version="20210129.160835">
+<Root Version="20210130.000000">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -2895,7 +2895,7 @@
         <KeyDate StartDate="19900101">
           <Category eKeyDay="Common">
             <!--
-            本所接受交易参与人竞价交易申报的时间为每个交易日9:15至 9：25、9：30至11:30 、13:00至15:00 
+            本所接受交易参与人竞价交易申报的时间为每个交易日9:15至 9：25、9：30至11:30 、13:00至15:00
             -->
             <!--
             每个交易日9:20至9:25的开盘集合竞价阶段，本所交易主机不接受撤单申报；其他接受交易申报的时间内，未成交申报可以撤销。撤销指令经本所交易主机确认方为有效。
@@ -8397,24 +8397,24 @@
         </CN>
       </Varieties>
     </SGX>
-    <TOCOM Id="TOC" Category="Futures" Description="日本商品交易所" EDescription="Tokyo Commodity Exchange" TimeZoneId="Tokyo Standard Time" Calendar="TradingCalendar.China.Stocks">
+    <!--<TOCOM Id="TOC" Category="Futures" Description="日本商品交易所" EDescription="Tokyo Commodity Exchange" TimeZoneId="Tokyo Standard Time" Calendar="TradingCalendar.China.Stocks">
       <Varieties>
         <JRU Description="日本天然橡胶" CreateDate="1952-12-12" ContractMultiplier="1" Currency="JPY" TickSize="0.1" LastTradingDate="eTDayNegative5_1228" ContractMonth="eM6">
-          <!--
+          --><!--
           http://www.tocom.or.jp/guide/youkou/rubber/index.html
           Ticker Symbol
             TOCOM Product Code: 81
             Reuters Contract Detail: TCE/JRU
             Bloomberg Tickers: JNA
             SP: JRU
-          -->
+          --><!--
           <TradeTimeRanges>
             <KeyDate StartDate="19521212">
               <Category eKeyDay="Common" TimeZone="9">
-                <!--
+                --><!--
                 Day Session 9:00 a.m. to 3:15 p.m. (JST)
                 Night Session 4:30 p.m. to 7:00 p.m. (JST)
-                -->
+                --><!--
                 <TimeRange Session="Trade|AfterHours" eInRange="EE" PreDay="1">163000-190000</TimeRange>
                 <TimeRange Session="Trade" eInRange="EE">090000-151500</TimeRange>
               </Category>
@@ -8426,55 +8426,55 @@
     <COMEX Id="COE" Category="Futures" Description="芝加哥交易所下属COMEX交易所" EDescription="COMEX of CME" TimeZoneId="Eastern Standard Time" Calendar="TradingCalendar.China.Stocks">
       <Varieties>
         <GC Description="COMEX黄金" CreateDate="1990-1-1" Currency="USD" TickSize="0.1" ContractMultiplier="100" ContractMonth="eM2_248Tin23_6Win72" LastTradingDate="eTDayNegative3">
-          <!--
+          --><!--
           即月；下2个连续月；即月起 23个月内二月、四月、八月、 十月；即月起72个月内六月、 十二月
           http://www.cmegroup.com/trading/metals/precious/gold_contract_specifications.html
           Trading is conducted for delivery during the current calendar month; the next two calendar months; any February, April, August, and October falling within a 23-month period; and any June and December falling within a 72-month period beginning with the current month.
-          -->
+          --><!--
           <TradeTimeRanges>
             <KeyDate StartDate="19900101">
               <Category eKeyDay="Common" TimeZone="-5" ContainsSummerTime="1">
-                <!--
+                --><!--
                 CME Globex:	Sunday - Friday 6:00 p.m. - 5:00 p.m. (5:00 p.m. - 4:00 p.m. Chicago Time/CT) with a 60-minute break each day beginning at 5:00 p.m. (4:00 p.m. CT)
                 CME ClearPort:	Sunday - Friday 6:00 p.m. - 5:00 p.m. (5:00 p.m. - 4:00 p.m. Chicago Time/CT) with a 60-minute break each day beginning at 5:00 p.m. (4:00 p.m. CT)
-                -->
-                <!--
+                --><!--
+                --><!--
                 <TimeRange Session="Trade" eInRange="EN" NextDay="1">180000-170000</TimeRange>
                 不是NextDay啊, 是PreDay啊, 前一日的18:00:00开始交易到交易日的17：00：00结束啊
                 可以看blp
-                -->
+                --><!--
                 <TimeRange Session="Trade" eInRange="EN" PreDay="1">180000-170000</TimeRange>
               </Category>
             </KeyDate>
           </TradeTimeRanges>
         </GC>
         <SI Description="COMEX白银" CreateDate="1990-1-1" Currency="USD" TickSize="0.1" ContractMultiplier="100" ContractMonth="eM3_1359in23_7Win60" LastTradingDate="eTDayNegative3">
-          <!--
+          --><!--
           挂牌合约:
           在交易当月、之后2个月、23个月期间内的任何1月、3月、5月、9月 ，以及当前交易月开始后的60个月期间内的任何7月与12月 进行交易交割
           Trading is conducted for delivery during the current calendar month;
           the next two calendar months; any January, March, May, and September falling within a 23-month period;
           and any July and December falling within a 60-month period beginning with the current month.
           http://www.cmegroup.com/trading/metals/precious/silver_contractSpecs_futures.html
-          -->
+          --><!--
           <TradeTimeRanges>
             <KeyDate StartDate="19900101">
               <Category eKeyDay="Common" TimeZone="-5" ContainsSummerTime="1">
-                <!--
+                --><!--
                 CME Globex:	Sunday - Friday 6:00 p.m. - 5:00 p.m. (5:00 p.m. - 4:00 p.m. Chicago Time/CT) with a 60-minute break each day beginning at 5:00 p.m. (4:00 p.m. CT)
                 CME ClearPort:	Sunday - Friday 6:00 p.m. - 5:00 p.m. (5:00 p.m. - 4:00 p.m. Chicago Time/CT) with a 60-minute break each day beginning at 5:00 p.m. (4:00 p.m. CT)
-                -->
-                <!--
+                --><!--
+                --><!--
                 <TimeRange Session="Trade" eInRange="EN" NextDay="1">180000-170000</TimeRange>
                 不是NextDay啊, 是PreDay啊, 前一日的18:00:00开始交易到交易日的17：00：00结束啊
                 可以看blp
-                -->
+                --><!--
                 <TimeRange Session="Trade" eInRange="EN" PreDay="1">180000-170000</TimeRange>
               </Category>
             </KeyDate>
           </TradeTimeRanges>
         </SI>
       </Varieties>
-    </COMEX>
+    </COMEX>-->
   </Markets>
 </Root>
