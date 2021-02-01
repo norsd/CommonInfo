@@ -1,4 +1,4 @@
-<Root Version="20210131.000000">
+<Root Version="20210201.090004">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/VarietyInfo.xml" UpdateIntervalMS="600000" WebTimeOutMS="10000" />
   <Markets>
     <SHFE Id="SHF" Category="Futures" Name="SHFE" Description="上海期货交易所" EDescription="Shanghai Futures Exchange" TimeZoneId="China Standard Time" Calendar="TradingCalendar.China.Futures">
@@ -7341,6 +7341,14 @@
             <_10003238 Category="Options" Description="300ETF沽9月6000" DeliveryYearMonth="2109" StrikePrice="6" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-01-28" LastTradingDate="2021-09-22" ContractMultiplier="10000" TickSize="0.0001" />
             <_10003239 Category="Options" Description="300ETF沽9月6250" DeliveryYearMonth="2109" StrikePrice="6.25" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-01-28" LastTradingDate="2021-09-22" ContractMultiplier="10000" TickSize="0.0001" />
             <_10003240 Category="Options" Description="300ETF沽9月6500" DeliveryYearMonth="2109" StrikePrice="6.5" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-01-28" LastTradingDate="2021-09-22" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003243 Category="Options" Description="300ETF购2月4700" DeliveryYearMonth="2102" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2021-02-01" LastTradingDate="2021-02-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003244 Category="Options" Description="300ETF沽2月4700" DeliveryYearMonth="2102" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-02-01" LastTradingDate="2021-02-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003245 Category="Options" Description="300ETF购3月4700" DeliveryYearMonth="2103" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2021-02-01" LastTradingDate="2021-03-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003246 Category="Options" Description="300ETF沽3月4700" DeliveryYearMonth="2103" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-02-01" LastTradingDate="2021-03-24" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003247 Category="Options" Description="300ETF购6月4700" DeliveryYearMonth="2106" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2021-02-01" LastTradingDate="2021-06-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003248 Category="Options" Description="300ETF沽6月4700" DeliveryYearMonth="2106" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-02-01" LastTradingDate="2021-06-23" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003249 Category="Options" Description="300ETF购9月4700" DeliveryYearMonth="2109" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Call" CreateDate="2021-02-01" LastTradingDate="2021-09-22" ContractMultiplier="10000" TickSize="0.0001" />
+            <_10003250 Category="Options" Description="300ETF沽9月4700" DeliveryYearMonth="2109" StrikePrice="4.7" UnderlyingId="510300.SH" OptionsStyle="European" OptionsCategory="Put" CreateDate="2021-02-01" LastTradingDate="2021-09-22" ContractMultiplier="10000" TickSize="0.0001" />
           </Options>
         </_510300_Options>
         <_000016 Category="Index" Description="上证50指数" CreateDate="2004-12-31" TickSize="0.01" 上市日期="2004-01-02">
