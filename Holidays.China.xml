@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Root Version="20201105" Name="China">
+<Root Version="20211105" Name="China">
   <Update Url="https://raw.githubusercontent.com/norsd/CommonInfo/master/Holidays.China.xml" UpdateIntervalMS = "600000" WebTimeOutMS ="10000"/>
   <Holidays>
     <year id="2003">
@@ -606,7 +606,7 @@
       <date name="春节">02/15/2021</date>
       <date name="春节">02/16/2021</date>
       <date name="春节">02/17/2021</date>
-      <date name="春节前第一个周六,工作日" WorkDay="True">02/20/2021</date>
+      <date name="春节后第一个周六,工作日" WorkDay="True">02/20/2021</date>
       <date name="清明节">04/03/2021</date>
       <date name="清明节">04/04/2021</date>
       <date name="清明节">04/05/2021</date>
@@ -633,6 +633,54 @@
       <date name="国庆节">10/06/2021</date>
       <date name="国庆节">10/07/2021</date>
       <date name="国庆节后第一个周六,工作日" WorkDay="True">10/09/2021</date>
+    </year>
+    <year id="2022">
+      <!--Auth:沈迪 20220101-->
+      <date name="元旦">01/01/2022</date>
+      <date name="元旦">01/02/2022</date>
+      <date name="元旦">01/03/2022</date>
+      
+      <date name="春节前第一个周六,工作日" WorkDay="True">01/29/2022</date>
+      <date name="春节前第一个周日,工作日" WorkDay="True">01/30/2022</date>
+      <date name="春节">01/31/2022</date>
+      <date name="春节">02/01/2022</date>
+      <date name="春节">02/02/2022</date>
+      <date name="春节">02/03/2022</date>
+      <date name="春节">02/04/2022</date>
+      <date name="春节">02/05/2022</date>
+      <date name="春节">02/06/2022</date>
+      
+      <date name="清明节前最后一个周六,工作日" WorkDay="True">04/02/2022</date>
+      <date name="清明节">04/03/2022</date>
+      <date name="清明节">04/04/2022</date>
+      <date name="清明节">04/05/2022</date>
+      
+      <date name="劳动节前最后一个周日,工作日" WorkDay="True">04/24/2022</date>
+      <date name="劳动节">04/30/2022</date>
+      <date name="劳动节">05/01/2022</date>
+      <date name="劳动节">05/02/2022</date>
+      <date name="劳动节">05/03/2022</date>
+      <date name="劳动节">05/04/2022</date>
+      <date name="劳动节后第一个周六,工作日" WorkDay="True">05/07/2022</date>
+      
+      <date name="端午节">06/03/2022</date>
+      <date name="端午节">06/04/2022</date>
+      <date name="端午节">06/05/2022</date>
+            
+      <date name="中秋节">09/10/2022</date>
+      <date name="中秋节">09/11/2022</date>
+      <date name="中秋节">09/12/2022</date>
+            
+      <date name="国庆节">10/01/2022</date>
+      <date name="国庆节">10/02/2022</date>
+      <date name="国庆节">10/03/2022</date>
+      <date name="国庆节">10/04/2022</date>
+      <date name="国庆节">10/05/2022</date>
+      <date name="国庆节">10/06/2022</date>
+      <date name="国庆节">10/07/2022</date>
+      <date name="国庆节后最后一个周六,工作日" WorkDay="True">10/08/2022</date>
+      <date name="国庆节后最后一个周日,工作日" WorkDay="True">10/09/2022</date>
+      
     </year>
   </Holidays>
 </Root>
