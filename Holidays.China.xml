@@ -727,7 +727,7 @@
     </year>
     <year id="2024">
       <!--Auth:沈迪 20231025-->
-      <date name="元旦">01/01/2025</date>
+      <date name="元旦">01/01/2024</date>
 
       <date name="春节前周日,工作日" WorkDay="True">02/04/2024</date>
       <date name="除夕休市">02/09/2024</date>
